@@ -43,7 +43,7 @@ p.lead {
 
 h1, h2, h3, h4, h5, h6, .section-title, .form-group label {
 	color: #222;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 blockquote {
@@ -234,8 +234,7 @@ blockquote {
 
 /* ##### NAV BAR ##### */
 .navbar-brand {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 2px 15px;
 	padding-right: 0;
 }
 
@@ -333,8 +332,8 @@ blockquote {
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-	color: #222;
-	background: none;
+	color: #fff;
+	background: #F37820;
 }
 
 /* ##### HOME SECTION ##### */
@@ -1544,3 +1543,10 @@ footer .social-icon a:hover {
 	position: relative;
 	display: inline-block;
 }
+
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+	background-color: #F37820;
+}
+h1.letter {
+	color: #F37820;}

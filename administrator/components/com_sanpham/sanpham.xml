@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_sanpham</name>
+    <creationDate>2016-09-17</creationDate>
+    <copyright>Bản quyền (C) 2014. Các quyền đều được bảo vệ.</copyright>
+    <license>bản quyền mã nguồn mở GNU phiên bản 2</license>
+    <author>kent</author>
+    <authorEmail>kent.dang1706t@gmail.com</authorEmail>
+    <authorUrl>http://viseed.com</authorUrl>
+    <version>CVS: 1.0.0</version>
+    <description>Sản phẩm component</description>
+    
+    
+    
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <update> <!-- Runs on update -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/update.mysql.utf8.sql</file>
+        </sql>
+    </update>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>sanpham.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+    </files>
+    <media destination="com_sanpham" folder="media">
+        <folder>js</folder>
+        <folder>css</folder>
+    </media>
+    <languages folder="languages/site">
+        
+			<language tag="en-GB">en-GB/en-GB.com_sanpham.ini</language>
+    </languages>
+    <administration>
+        <menu img="media/com_sanpham/images/s_com_sanpham.png" >COM_SANPHAM</menu>
+        <submenu>
+            
+			<menu link="option=com_sanpham&amp;view=sanphams" view="sanphams" img="media/com_sanpham/images/s_.png" alt="Sanpham/Sanphams">COM_SANPHAM_TITLE_SANPHAMS</menu>
+
+        </submenu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>sanpham.php</filename>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="languages/administrator">
+            
+			<language tag="en-GB">en-GB/en-GB.com_sanpham.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_sanpham.sys.ini</language>
+        </languages>
+    </administration>
+    <config>
+        <fields name="params">
+            <fieldset name="component">
+                <field name="save_history" default="0" />
+            </fieldset>
+        </fields>
+    </config>
+    <plugins>
+        <plugin group="search" plugin="sanpham"/>
+    </plugins>
+    
+</extension>
+<!-- Component built by the Joomla Component Creator -->
+<!-- http://www.component-creator.com/ -->
