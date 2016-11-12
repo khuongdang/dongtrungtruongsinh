@@ -65,7 +65,7 @@ defined('_JEXEC') or die;
                 <span class="line big"></span>
                 <span class="line big"></span>
             </div>
-            <h1 class="item_right letter">Thư ngỏ</h1>
+            <h1 class="item_right letter">Câu chuyện của Đông Trùng Hạ Thảo Việt</h1>
             <div>
                 <span class="line"></span>
                 <span class="line"></span>
@@ -82,6 +82,7 @@ defined('_JEXEC') or die;
                     <div class="item_left">
                         <p>Vào những năm 2005 - 2009, nhóm chúng tôi, là những nghiên cứu sinh chuyên ngành công nghệ sinh học, có may mắn tham gia vào các dự án nghiên cứu và bảo tồn các loại gen quí của Việt Nam do Viện Nghiên Cứu Khoa Học và Phát Triển tiến hành, với sự chỉ dẫn và giám sát của nhiều thầy cô giáo sư công tác ở Viện.</p>
                         <p>Trong quá trình thực địa thu thập và phân loại thực vật ở những vùng núi Tây Bắc, Bắc Trung Bộ, Nam Trung Bộ, Tây Nguyên … chúng tôi phát hiện được một số chi Đông Trùng Hạ Thảo.</p>
+                        <img class="img_thungo" src="images/quoc1.jpg" />
                     </div>
                 </div>
             </div>
@@ -97,6 +98,7 @@ defined('_JEXEC') or die;
                 <div class="element-line thungo">
                     <div class="item_left">
                         <p>Đến năm 2015, sau 6 năm làm việc miệt mài, chúng tôi may mắn thực hiện thành công kỹ thuật nuôi trồng Đông trùng hạ thảo trong phòng thí nghiệm, với chủng giống thuần chủng cho năng suất và tỉ lệ hoạt chất cao nhất so với các cơ quan nghiên cứu khác.</p>
+                        <img class="img_thungo" src="images/quoc2.jpg" />
                         <p>Năm 2016, chúng tôi quyết định mang thành quả nghiên cứu khoa học của nhóm đến cho mọi người với thương hiệu Đông Trùng Hạ Thảo Trường Sinh. Chúng tôi tin rằng bạn sẽ có những trải nghiệm tuyệt vời với Đông trùng hạ thảo Trường Sinh như gia đình và những người thân quen của tôi. Sức khoẻ, hạnh phúc và thịnh vượng sẽ đến với bạn và gia đình bạn.</p>
                     </div>
                 </div>
@@ -116,7 +118,7 @@ defined('_JEXEC') or die;
                 <span class="line big"></span>
                 <span class="line big"></span>
             </div>
-            <h1 class="item_left letter">Công dụng</h1>
+            <h1 class="item_left letter">Giá trị y học</h1>
             <div>
                 <span class="line"></span>
                 <span class="line"></span>
@@ -137,11 +139,8 @@ defined('_JEXEC') or die;
                             <div class="team-inner">
                                 <div class="team-detail">
                                     <div class="team-content">
-                                        <h3><strong>Marc Crow</strong></h3>
-                                        <p>
-                                            CEO Founder
-                                        </p>
-                                        <ul>
+                                        <a href="#"><h3><strong>ĐTHT cho người bị tiểu đường </strong></h3></a>
+                                        <!--<ul>
                                             <li>
                                                 <a href=""><i class="fa fa-facebook fa-2x"></i></a>
                                             </li>
@@ -154,11 +153,11 @@ defined('_JEXEC') or die;
                                             <li>
                                                 <a href=""><i class="fa fa-youtube fa-2x"></i></a>
                                             </li>
-                                        </ul>
+                                        </ul>-->
                                     </div>
                                 </div>
                             </div>
-                            <img src="images/team1.jpg" alt="" class="img-responsive">
+                            <img src="images/tieuduong01.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -173,28 +172,11 @@ defined('_JEXEC') or die;
                             <div class="team-inner">
                                 <div class="team-detail">
                                     <div class="team-content">
-                                        <h3><strong>Scott Sanchezh</strong></h3>
-                                        <p>
-                                            Public Relation
-                                        </p>
-                                        <ul>
-                                            <li>
-                                                <a href=""><i class="fa fa-facebook fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-twitter fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-google-plus fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-youtube fa-2x"></i></a>
-                                            </li>
-                                        </ul>
+                                        <a href="#"><h3><strong>ĐTHT cho người bị suy giảm chức năng thận</strong></h3></a>
                                     </div>
                                 </div>
                             </div>
-                            <img src="images/team4.jpg" alt="" class="img-responsive">
+                            <img src="images/than01.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -209,28 +191,11 @@ defined('_JEXEC') or die;
                             <div class="team-inner">
                                 <div class="team-detail">
                                     <div class="team-content">
-                                        <h3><strong>Henry kolms</strong></h3>
-                                        <p>
-                                            Creative Director
-                                        </p>
-                                        <ul>
-                                            <li>
-                                                <a href=""><i class="fa fa-facebook fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-twitter fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-google-plus fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-youtube fa-2x"></i></a>
-                                            </li>
-                                        </ul>
+                                        <a href="#"><h3><strong>ĐTHT cho người bị viêm gan, xơ gan </strong></h3></a>
                                     </div>
                                 </div>
                             </div>
-                            <img src="images/team2.jpg" alt="" class="img-responsive">
+                            <img src="images/gan01.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -245,28 +210,11 @@ defined('_JEXEC') or die;
                             <div class="team-inner">
                                 <div class="team-detail">
                                     <div class="team-content">
-                                        <h3><strong>Michelle White</strong></h3>
-                                        <p>
-                                            Web Developer
-                                        </p>
-                                        <ul>
-                                            <li>
-                                                <a href=""><i class="fa fa-facebook fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-twitter fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-google-plus fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-youtube fa-2x"></i></a>
-                                            </li>
-                                        </ul>
+                                        <a href="#"><h3><strong>ĐTHT cho người bị viêm phổi và tắc nghẽn phổi</strong></h3></a>
                                     </div>
                                 </div>
                             </div>
-                            <img src="images/team3.jpg" alt="" class="img-responsive">
+                            <img src="images/phoi01.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                 </div>

@@ -2,213 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9617640d-19fd-4e44-b672-3ff8499b2aad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/php.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/elements/text.php" afterPath="$PROJECT_DIR$/administrator/components/com_jce/elements/text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/install.php" afterPath="$PROJECT_DIR$/administrator/components/com_jce/install.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/install.script.php" afterPath="$PROJECT_DIR$/administrator/components/com_jce/install.script.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/jce.xml" afterPath="$PROJECT_DIR$/administrator/components/com_jce/jce.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/css/cpanel.css" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/css/cpanel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/css/global.css" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/css/install.css" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/css/install.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/css/installer.css" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/css/installer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/css/module.css" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/css/module.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/css/preferences.css" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/css/preferences.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/css/profiles.css" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/css/profiles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/css/updates.css" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/css/updates.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/css/upload.css" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/css/upload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/css/users.css" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/css/users.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/js/browser.js" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/js/browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/js/core.js" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/js/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/js/cpanel.js" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/js/cpanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/js/installer.js" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/js/installer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/js/preferences.js" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/js/preferences.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/js/profile.js" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/js/profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/js/update.js" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/js/update.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/js/uploads.js" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/js/uploads.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/media/js/users.js" afterPath="$PROJECT_DIR$/administrator/components/com_jce/media/js/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/models/editor.php" afterPath="$PROJECT_DIR$/administrator/components/com_jce/models/editor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_jce/models/updates.php" afterPath="$PROJECT_DIR$/administrator/components/com_jce/models/updates.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/dailymotion.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/dailymotion.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/dailymotion/js/dailymotion.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/dailymotion/js/dailymotion.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/vimeo.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/vimeo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/vimeo/js/vimeo.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/vimeo/js/vimeo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/vine.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/vine.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/vine/js/vine.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/vine/js/vine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/youtube.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/youtube.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/youtube/js/youtube.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/aggregator/youtube/js/youtube.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/filesystem/joomla.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/filesystem/joomla.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/links/joomlalinks.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/links/joomlalinks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/links/joomlalinks/css/joomlalinks.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/links/joomlalinks/css/joomlalinks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/mediaplayer/jceplayer.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/mediaplayer/jceplayer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/mediaplayer/jceplayer/css/jceplayer.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/mediaplayer/jceplayer/css/jceplayer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/mediaplayer/jceplayer/js/jceplayer.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/mediaplayer/jceplayer/js/jceplayer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/jcemediabox.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/jcemediabox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/jcemediabox/css/jcemediabox.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/jcemediabox/css/jcemediabox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/jcemediabox/js/jcemediabox.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/jcemediabox/js/jcemediabox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/window.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/window.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/window/css/window.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/window/css/window.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/window/js/window.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/popups/window/js/window.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/search/css/link.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/search/css/link.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/search/js/link.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/search/js/link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/extensions/search/link.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/extensions/search/link.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/classes/browser.php" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/classes/browser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/classes/editor.php" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/classes/editor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/classes/utility.php" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/classes/utility.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/colorpicker.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/colorpicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/editor.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/files.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/files.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/help.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/help.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/manager.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/manager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/plugin.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/plugin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/popup.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/css/popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/jquery/css/jquery-ui.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/jquery/css/jquery-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/js/editor.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/js/editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/js/help.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/js/help.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/js/link.full.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/js/link.full.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/js/manager.full.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/js/manager.full.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/libraries/js/plugin.full.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/libraries/js/plugin.full.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/advlist/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/advlist/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/anchor/anchor.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/anchor/anchor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/anchor/css/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/anchor/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/anchor/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/anchor/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/article/article.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/article/article.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/article/css/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/article/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/article/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/article/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/autosave/autosave.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/autosave/autosave.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/autosave/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/autosave/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/browser/browser.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/browser/browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/browser/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/browser/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/browser/js/browser.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/browser/js/browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/charmap/charmap.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/charmap/charmap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/charmap/css/charmap.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/charmap/css/charmap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/charmap/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/charmap/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/charmap/js/charmap.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/charmap/js/charmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/cleanup/cleanup.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/cleanup/cleanup.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/clipboard.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/clipboard.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/css/blank.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/css/blank.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/css/clipboard.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/css/clipboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/css/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/js/clipboard.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/clipboard/js/clipboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/code/css/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/code/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/colorpicker/css/colorpicker.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/colorpicker/css/colorpicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/colorpicker/js/colorpicker.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/colorpicker/js/colorpicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/contextmenu/contextmenu.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/contextmenu/contextmenu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/contextmenu/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/contextmenu/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/directionality/directionality.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/directionality/directionality.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/directionality/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/directionality/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontcolor/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontcolor/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontcolor/fontcolor.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontcolor/fontcolor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontselect/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontselect/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontselect/fontselect.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontselect/fontselect.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontsizeselect/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontsizeselect/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontsizeselect/fontsizeselect.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fontsizeselect/fontsizeselect.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/formatselect/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/formatselect/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/formatselect/formatselect.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/formatselect/formatselect.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fullscreen/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fullscreen/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fullscreen/fullscreen.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/fullscreen/fullscreen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/hr/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/hr/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/hr/hr.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/hr/hr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/imgmanager/css/imgmanager.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/imgmanager/css/imgmanager.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/imgmanager/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/imgmanager/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/imgmanager/imgmanager.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/imgmanager/imgmanager.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/imgmanager/js/imgmanager.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/imgmanager/js/imgmanager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/importcss/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/importcss/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/inlinepopups/css/dialog.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/inlinepopups/css/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/inlinepopups/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/inlinepopups/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/inlinepopups/inlinepopups.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/inlinepopups/inlinepopups.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/kitchensink/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/kitchensink/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/kitchensink/kitchensink.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/kitchensink/kitchensink.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/layer/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/layer/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/layer/layer.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/layer/layer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/link/css/link.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/link/css/link.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/link/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/link/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/link/js/link.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/link/js/link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/link/link.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/link/link.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/lists/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/lists/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/lists/lists.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/lists/lists.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/media/css/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/media/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/media/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/media/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/media/media.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/media/media.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/nonbreaking/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/nonbreaking/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/nonbreaking/nonbreaking.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/nonbreaking/nonbreaking.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/preview/css/preview.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/preview/css/preview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/preview/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/preview/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/preview/preview.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/preview/preview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/print/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/print/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/print/print.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/print/print.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/searchreplace/css/searchreplace.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/searchreplace/css/searchreplace.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/searchreplace/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/searchreplace/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/searchreplace/js/searchreplace.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/searchreplace/js/searchreplace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/searchreplace/searchreplace.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/searchreplace/searchreplace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/css/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/css/codemirror/codemirror.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/css/editor.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/css/editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/js/editor.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/js/editor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/js/format.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/js/format.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/source.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/source/source.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/spellchecker/css/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/spellchecker/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/spellchecker/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/spellchecker/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/spellchecker/spellchecker.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/spellchecker/spellchecker.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/style/css/style.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/style/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/style/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/style/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/style/js/style.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/style/js/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/style/style.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/style/style.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/styleselect/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/styleselect/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/styleselect/styleselect.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/styleselect/styleselect.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/tabfocus/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/tabfocus/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/table/css/table.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/table/css/table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/table/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/table/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/table/js/table.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/table/js/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/table/table.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/table/table.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/textcase/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/textcase/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/textcase/textcase.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/textcase/textcase.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/upload/css/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/upload/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/visualblocks/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/visualblocks/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/visualblocks/visualblocks.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/visualblocks/visualblocks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/visualchars/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/visualchars/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/visualchars/visualchars.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/visualchars/visualchars.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/wordcount/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/wordcount/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/xhtmlxtras/css/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/xhtmlxtras/css/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/xhtmlxtras/css/xhtmlxtras.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/xhtmlxtras/css/xhtmlxtras.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/xhtmlxtras/js/xhtmlxtras.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/xhtmlxtras/js/xhtmlxtras.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/xhtmlxtras/xhtmlxtras.xml" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/plugins/xhtmlxtras/xhtmlxtras.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/classic/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/classic/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/classic/ui.admin.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/classic/ui.admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/classic/ui.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/classic/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/default/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/default/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/default/ui.admin.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/default/ui.admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/default/ui.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/default/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/highcontrast/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/highcontrast/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/highcontrast/ui.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/highcontrast/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/mobile/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/mobile/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/mobile/ui.admin.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/mobile/ui.admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/mobile/ui.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/mobile/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/o2k7/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/o2k7/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/o2k7/ui.admin.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/o2k7/ui.admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/o2k7/ui.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/o2k7/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/none/skins/default/content.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/none/skins/default/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/none/skins/default/ui.css" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/themes/none/skins/default/ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/tiny_mce.js" afterPath="$PROJECT_DIR$/components/com_jce/editor/tiny_mce/tiny_mce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jce/media/css/popup.css" afterPath="$PROJECT_DIR$/components/com_jce/media/css/popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.php" afterPath="$PROJECT_DIR$/configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dongtrungtruongsinh.sql" afterPath="$PROJECT_DIR$/dongtrungtruongsinh.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/en-GB/en-GB.com_jce.xml" afterPath="$PROJECT_DIR$/language/en-GB/en-GB.com_jce.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/filter/output.php" afterPath="$PROJECT_DIR$/libraries/joomla/filter/output.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/content/jce/jce.php" afterPath="$PROJECT_DIR$/plugins/content/jce/jce.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/content/jce/jce.xml" afterPath="$PROJECT_DIR$/plugins/content/jce/jce.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/editors/jce/jce.xml" afterPath="$PROJECT_DIR$/plugins/editors/jce/jce.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/quickicon/jcefilebrowser/jcefilebrowser.xml" afterPath="$PROJECT_DIR$/plugins/quickicon/jcefilebrowser/jcefilebrowser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/system/jce/jce.php" afterPath="$PROJECT_DIR$/plugins/system/jce/jce.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/system/jce/jce.xml" afterPath="$PROJECT_DIR$/plugins/system/jce/jce.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php" afterPath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php" afterPath="$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php" />
     </list>
     <ignored path="dongtrungtruongsinh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -229,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -249,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="147">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -272,14 +70,10 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="385" column="26" selection-start-line="385" selection-start-column="26" selection-end-line="385" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="143" column="48" selection-start-line="143" selection-start-column="48" selection-end-line="143" selection-end-column="48" />
               <folding>
-                <element signature="n#section#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#1;n#div#0;n#section#1;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#section#1;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#!!top" expanded="false" />
                 <element signature="n#section#3;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -344,8 +138,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="45" column="83" selection-start-line="45" selection-start-column="83" selection-end-line="45" selection-end-column="83" />
+            <state relative-caret-position="303">
+              <caret line="1334" column="30" selection-start-line="1334" selection-start-column="30" selection-end-line="1334" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -381,16 +175,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
-              <caret line="92" column="18" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="link.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/joomla/links/link.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -404,8 +188,8 @@
       <file leaf-file-name="default_url.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default_url.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="64" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="64" />
+            <state relative-caret-position="198">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="e#6#237#0#PHP" expanded="true" />
               </folding>
@@ -433,6 +217,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -451,17 +245,17 @@
         <option value="$PROJECT_DIR$/css/flexslider.css" />
         <option value="$PROJECT_DIR$/js/jquery.maximage.js" />
         <option value="$PROJECT_DIR$/css/style-responsive.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/../inkythuatso/templates/inkythuatso/html/mod_menu/default.php" />
         <option value="$PROJECT_DIR$/modules/mod_menu/tmpl/default_url.php" />
         <option value="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/mod_menu/default.php" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
-        <option value="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php" />
         <option value="$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php" />
         <option value="$PROJECT_DIR$/libraries/joomla/filter/output.php" />
         <option value="$PROJECT_DIR$/administrator/php.ini" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php" />
       </list>
     </option>
   </component>
@@ -738,15 +532,15 @@
       <updated>1478425122955</updated>
       <workItem from="1478425124088" duration="15439000" />
       <workItem from="1478921827021" duration="7000" />
-      <workItem from="1478922117837" duration="7763000" />
+      <workItem from="1478922117837" duration="16067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23209000" />
+    <option name="totallyTimeSpent" value="31513000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25642672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -806,11 +600,7 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="n#section#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#div#0;n#section#1;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#section#1;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#!!top" expanded="false" />
             <element signature="n#section#3;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -956,11 +746,7 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="n#section#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#1;n#div#0;n#section#1;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#section#1;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#!!top" expanded="false" />
             <element signature="n#section#3;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -1182,29 +968,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/beez3/html/mod_breadcrumbs/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="42" column="89" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="89" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default_url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="64" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="64" />
-          <folding>
-            <element signature="e#6#237#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1216,50 +984,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="92" column="18" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/mod_menu/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="45" column="83" selection-start-line="45" selection-start-column="83" selection-end-line="45" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="385" column="26" selection-start-line="385" selection-start-column="26" selection-end-line="385" selection-end-column="26" />
-          <folding>
-            <element signature="n#section#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#section#1;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#section#1;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,10 +1016,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default_url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="e#6#237#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="1334" column="30" selection-start-line="1334" selection-start-column="30" selection-end-line="1334" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="143" column="48" selection-start-line="143" selection-start-column="48" selection-end-line="143" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#2;n#div#1;n#div#0;n#section#1;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding />
         </state>
       </provider>

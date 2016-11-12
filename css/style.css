@@ -668,6 +668,7 @@ div.mc-image {
 	position: relative;
 	display: block;
 	overflow: hidden;
+	background: #000;
 }
 #team .team-element:hover .team-inner {
 	display: block;
@@ -679,8 +680,6 @@ div.mc-image {
 	bottom: 0;
 	left: 0;
 	z-index: 10;
-	display: none;
-	background: rgba(0,0,0,0.8);
 }
 #team .team-element .team-inner .team-detail {
 	text-align: center;
@@ -697,11 +696,10 @@ div.mc-image {
 #team .team-element .team-inner .team-detail .team-content h3 {
 	margin: 0 0 8px 0;
 	padding: 0 0 8px 0;
-	border-bottom: 1px solid #666;
 	text-transform: uppercase;
 }
 #team .team-element .team-inner .team-detail .team-content h3, #team .team-element .team-inner .team-detail .team-content a {
-	color: #fff;
+	color: #f37820;
 }
 #team .team-element .team-inner .team-detail .team-content p {
 	font-weight: 400;
@@ -1342,6 +1340,7 @@ footer .social-icon a:hover {
 	-moz-transform: scale(1.2); /* Firefox */
 	-webkit-transform: scale(1.2); /* Safari and Chrome */
 	-o-transform: scale(1.2); /* Opera */
+	opacity: 1;
 }
 .hi-icon {
 	display: inline-block;

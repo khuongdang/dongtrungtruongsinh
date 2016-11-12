@@ -40,3 +40,16 @@ h1.slogan {
     padding:30px 0 !important;
 }
 
+h1.letter {
+    font-family: myfont;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.team-content a h3:hover {
+    color:#F37820 !important;
+}
+
+img.img_thungo  { width: 100%;}
+
+.team-element img {opacity: 0.4;}
