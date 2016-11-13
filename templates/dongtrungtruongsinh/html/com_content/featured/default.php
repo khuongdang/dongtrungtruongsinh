@@ -10,11 +10,16 @@ defined('_JEXEC') or die;
 
     <div id="fullscreen-slider">
         <!-- Slider item -->
+        <?php
+        $image_slide = JKentlib::getImageSliderHomepage(1);
+        foreach ($image_slide as $obj) {
+            $img = $obj->filename;
+
+        ?>
         <div class="slider-item">
-            <img src="images/slide1.jpg" alt="">
+            <img src="images/phocagallery/<?php echo $img; ?>" alt="">
             <div class="pattern">
                 <div class="slide-content">
-
                     <!-- Section title -->
                     <div class="section-title text-center">
                         <h1 class="slogan">Sức khỏe hoàn hảo<i>Cho cuộc sống viên mãn</i></h1>
@@ -24,6 +29,7 @@ defined('_JEXEC') or die;
                 </div>
             </div>
         </div>
+        <?php } ?>
         <!-- Slider item -->
 
         <!-- Slider item -->
@@ -139,7 +145,7 @@ defined('_JEXEC') or die;
                             <div class="team-inner">
                                 <div class="team-detail">
                                     <div class="team-content">
-                                        <a href="#"><h3><strong>ĐTHT cho người bị tiểu đường </strong></h3></a>
+                                        <a href="#"><h3><strong>Đông Trùng Hạ Thảo cho người bị tiểu đường </strong></h3></a>
                                         <!--<ul>
                                             <li>
                                                 <a href=""><i class="fa fa-facebook fa-2x"></i></a>
@@ -172,7 +178,7 @@ defined('_JEXEC') or die;
                             <div class="team-inner">
                                 <div class="team-detail">
                                     <div class="team-content">
-                                        <a href="#"><h3><strong>ĐTHT cho người bị suy giảm chức năng thận</strong></h3></a>
+                                        <a href="#"><h3><strong>Đông Trùng Hạ Thảo cho người bị suy giảm chức năng thận</strong></h3></a>
                                     </div>
                                 </div>
                             </div>
@@ -191,7 +197,7 @@ defined('_JEXEC') or die;
                             <div class="team-inner">
                                 <div class="team-detail">
                                     <div class="team-content">
-                                        <a href="#"><h3><strong>ĐTHT cho người bị viêm gan, xơ gan </strong></h3></a>
+                                        <a href="#"><h3><strong>Đông Trùng Hạ Thảo cho người bị viêm gan, xơ gan </strong></h3></a>
                                     </div>
                                 </div>
                             </div>
@@ -210,7 +216,7 @@ defined('_JEXEC') or die;
                             <div class="team-inner">
                                 <div class="team-detail">
                                     <div class="team-content">
-                                        <a href="#"><h3><strong>ĐTHT cho người bị viêm phổi và tắc nghẽn phổi</strong></h3></a>
+                                        <a href="#"><h3><strong>Đông Trùng Hạ Thảo cho người bị viêm phổi và tắc nghẽn phổi</strong></h3></a>
                                     </div>
                                 </div>
                             </div>

@@ -23,6 +23,9 @@ body {
 	color: #898989;
 	line-height: 1.5em;
 	overflow-x: hidden;
+	background-image: url(../images/img_bg.jpg);
+	background-position: 0px 0px;
+	background-repeat: repeat;
 }
 a:focus {
 	outline: none;
@@ -482,6 +485,8 @@ div.mc-image {
 	height: 100%;
 	overflow: hidden;
 	width: 100%;
+	display: block;
+	max-width: 100%; height: auto; margin: 0 auto;
 }
 
 #text-slider {
@@ -699,7 +704,7 @@ div.mc-image {
 	text-transform: uppercase;
 }
 #team .team-element .team-inner .team-detail .team-content h3, #team .team-element .team-inner .team-detail .team-content a {
-	color: #f37820;
+	color: #fff;
 }
 #team .team-element .team-inner .team-detail .team-content p {
 	font-weight: 400;

@@ -6,32 +6,42 @@ $telephone = $this->contact->telephone;
 $address = $this->contact->address;
 $mobile = $this->contact->mobile;
 $webpage = $this->contact->webpage;
-
 ?>
 <div class="mainwidth container">
-    <div class="banner_page margin_bottom_24">
-        <a href="#">
-            <img class="img-responsive" alt="In offset" src="<?php echo $contact_img; ?>" title="In offset">
-        </a>
-    </div>
+    <div class="section-title text-center">
+        <div>
+            <span class="line big"></span>
+            <span class="line big"></span>
+        </div>
+        <h1 class="item_right letter">Liên hệ</h1>
+        <div>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        </div>
     <div class="blog_left col-lg-6 col-md-6 col-xs-12">
         <div class="contact_form margin_bottom_30 clearfix">
             <div class="row">
-                <div class="contact_form_title col-lg-12 col-md-12 col-sm-12 col-xs-12">Liên hệ</div>
                 <div class="Contact_Info col-lg-12 col-md-12 col-xs-12">
                     <table width="100%">
                         <tr>
                             <td colspan="2">
-                                <b>ĐỊA CHỈ</b> : 34/10 Bàu Cát 2, P14, Q.Tân Bình, TP.HCM
+                                <strong style="font-size: 20px;">Công ty TNHH Herbal Nutrition Care ATD</strong>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <b>ĐỊA CHỈ</b> : Số 305/8 Đường Tân Sơn Nhì, P Tân Sơn Nhì, Quận Tân Phú, TP HCMC
                             </td>
                         </tr>
                         <tr>
-                            <td width="350"><b>ĐIỆN THOẠI</b> : (08). 6292 4282 </td>
-                            <td><b>FAX</b> : (08). 3949 2357</td>
+                            <td width="350"><b>ĐIỆN THOẠI</b> : 08 5408 6690 </td>
+                            <td><b>FAX</b> :  08 5408 6695</td>
                         </tr>
                         <tr>
                             <td><b>HOTLINE</b> : 0902 399 560 </td>
-                            <td><b>EMAIL</b> : bayhien@gmail.com</td>
+                            <td><b>EMAIL</b> : info@dongtrunghathaotruongsinh.vn</td>
                         </tr>
                     </table>
                 </div>

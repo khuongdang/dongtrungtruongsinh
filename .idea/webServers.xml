@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="93b2eebb-0a99-4ab6-86cf-b00f2b2a6af2" name="dongtrungtruongsinh" url="http://112.213.89.171">
-        <fileTransfer host="112.213.89.171" port="21" rootFolder="/new.dongtrunghathaotruongsinh.vn">
+      <webServer id="93b2eebb-0a99-4ab6-86cf-b00f2b2a6af2" name="dongtrungtruongsinh" url="http://dongtrunghathaotruongsinh.vn:2082/">
+        <fileTransfer host="dongtrunghathaotruongsinh.vn" port="21" rootFolder="/new.dongtrunghathaotruongsinh.vn">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

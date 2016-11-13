@@ -56,17 +56,81 @@
 
 <!-- Back to top -->
 <a href="#" id="back-top"><i class="fa fa-angle-up fa-2x"></i></a>
+<div class="footer-v1">
+    <div style="background-color: #f37820;height: 10px" class="footer_top_border "></div>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- About -->
+            <div class="col-md-4 map-img md-margin-bottom-40">
+                <div class="headline"><h2>Công ty TNHH Herbal Nutrition Care ATD</h2></div>
+                <address class="md-margin-bottom-40">
+                    <b>ĐỊA CHỈ</b> : Số 305/8 Đường Tân Sơn Nhì, P Tân Sơn Nhì, Quận Tân Phú, TP HCMC <br>
+                    <b>ĐIỆN THOẠI</b> : 08 5408 6690
+                    Phone: 800 123 3456 <br>
+                    <b>FAX</b> :  08 5408 6695 <br>
+                    <b>HOTLINE</b> : 0909 939 538 <br>
+                    <b>EMAIL</b> : info@dongtrunghathaotruongsinh.vn <br>
+                </address>
+            </div>
+            <!-- End About -->
 
-<footer class="text-center">
-    <div class="social-icon">
-        <a href="#"> <i class="fa fa-facebook fa-3x"></i> </a>
-        <a href="#"> <i class="fa fa-twitter fa-3x"></i> </a>
-        <a href="#"> <i class="fa fa-google-plus fa-3x"></i> </a>
-        <a href="#"> <i class="fa fa-youtube fa-3x"></i> </a>
+            <!-- Latest -->
+            <div class="col-md-3 md-margin-bottom-40">
+                <div class="posts">
+                    <div class="headline"><h2>Về chúng tôi</h2></div>
+                    <ul class="list-unstyled link-list">
+                        <?php
+                        $about = JKentlib::getArticleFromCategory(11);
+                        foreach ($about as $obj) {
+                        ?>
+                        <li>
+                            <a href="#"><?php echo $obj->title;?></a>
+                        </li>
+                        <?php }?>
+                    </ul>
+                </div>
+            </div><!--/col-md-3-->
+            <!-- End Latest -->
+
+            <!-- Link List -->
+            <div class="col-md-2 md-margin-bottom-40">
+                <div class="headline"><h2>Hỗ trợ</h2></div>
+                <ul class="list-unstyled link-list">
+                    <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
+                    <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
+                    <li><a href="#">Latest jobs</a><i class="fa fa-angle-right"></i></li>
+                    <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
+                    <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
+                </ul>
+            </div><!--/col-md-3-->
+            <!-- End Link List -->
+
+            <!-- Address -->
+            <div class="col-md-2 map-img md-margin-bottom-40">
+                <div class="headline"><h2>Khám phá</h2></div>
+                <address class="md-margin-bottom-40">
+                    25, Lorem Lis Street, Orange <br>
+                    California, US <br>
+                    Phone: 800 123 3456 <br>
+                    Fax: 800 123 3456 <br>
+                    Email: <a href="mailto:info@anybiz.com" class="">info@anybiz.com</a>
+                </address>
+            </div><!--/col-md-3-->
+            <!-- End Address -->
+        </div>
     </div>
-    © Copyright 2013 by Alpine Studios. All Rights Reserved. Powered by <a href="http://www.creative-ispiration.com"> <strong>creative-ispiration.com</strong> </a>
-</footer>
-
+</div>
+    <div class="footer_bottom_holder">
+        <div class="container">
+            <div class="container_inner">
+                <div class="footer_bottom">
+                    <div class="textwidget">Copyright 2016 ® Truong Sinh Co.,Ltd. Reg No. 0313474512. All Rights Reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Js Library -->
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/modernizr.js" type="text/javascript"></script>
