@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_CONGDUNG_TITLE_LIST_VIEW_LISTCONGDUNG" option="View">
+        <message>
+                        <![CDATA[COM_CONGDUNG_TITLE_LIST_VIEW_LISTCONGDUNG_DESC]]>
+        </message>
+	</layout>
+</metadata>

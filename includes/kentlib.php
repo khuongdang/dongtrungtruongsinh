@@ -47,11 +47,14 @@ final class JKentlib {
         return false;
     }
 
-    public static function getCategoryFromParent($cat_id = 0)
+    public static function getCategoryFromParent($cat_id = 0, $limit = null)
     {
         if (isset($cat_id) && $cat_id != 0) {
             $db = JFactory::getDbo();
             $query = "SELECT * FROM #__categories WHERE parent_id = $cat_id ORDER BY lft ASC";
+            if (!is_null($limit) && is_numeric($limit)) {
+                $query = "SELECT * FROM #__categories WHERE parent_id = $cat_id ORDER BY lft ASC LIMIT 0, $limit";
+            }
             $db->setQuery($query);
             return $db->loadObjectList();
         }
@@ -143,7 +146,7 @@ final class JKentlib {
     {
         if (isset($catid) && !empty($catid)) {
             $db = JFactory::getDbo();
-            $query = "SELECT * FROM #__phocagallery WHERE catid = $catid and published = 1 ORDER BY RAND()";
+            $query = "SELECT * FROM #__phocagallery WHERE catid = $catid and published = 1 order by ordering ASC";
             $db->setQuery($query);
             return $db->loadObjectList();
         }

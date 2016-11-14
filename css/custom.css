@@ -8,6 +8,8 @@
 h1.slogan {
     font-family:myfont;
     text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: bolder;
 }
 .row {position: relative;}
 .bg_thungo {
@@ -181,3 +183,144 @@ img.img_thungo  { width: 100%;}
 .textwidget {
     text-align: center;
 }
+
+#courses .container .col-md-3 {
+
+}
+
+#courses .container .col-md-3 h4 {
+    font-size: 18px;
+    text-align: left;
+    min-height: 82px;
+    margin-bottom: -10px;
+}
+
+#courses .container .col-md-3 h2, #courses .container .col-md-3 p {
+    text-align: left;
+    padding: 10px 0;
+}
+
+#courses .container .col-md-3 p {
+    font-size: 14px;
+}
+
+#courses .container .col-md-3 a {
+    float: right;
+    color: #f47c24;
+    padding: 20px 0;
+}
+
+#courses .container .col-md-3 a:hover {
+    color: #666;
+}
+
+#courses .container .col-md-3 h4 a {
+    padding: 0;
+    color: #f47c24;
+}
+
+#courses .container .col-md-3 h4 a:hover {
+    color: #666;
+}
+
+#courses .container .col-md-3 img {
+    max-width: 100%;
+}
+
+#home-slider {
+    position: relative;
+    padding: 0;
+    height: 303px !important;
+    margin-top: -3px;
+}
+
+.sl-slider-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.sl-slide {
+    z-index: 1;
+}
+.sl-slide, .sl-slides-wrapper, .sl-slide-inner {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+
+.bg-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-img-3 {
+    background-image: url(http://onesky.vn/assets/homepage/img/about/aboutus-banner.jpg);
+    height: 303px;
+}
+.slide-caption {
+    color: #fff;
+    display: table;
+    height: 100%;
+    left: 0;
+    min-height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 145px;
+    width: 100%;
+    z-index: 11;
+}
+
+.slide-caption.box-center .animated {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.article-content h2{
+    font-family: sans-serif;
+}
+
+.use_title {text-align: center;}
+.use_title .line.big {
+    width: 170px;
+}
+.use_title .line {
+    width: 90px;
+    background: #dedede;
+    height: 1px;
+    margin: 5px 15px;
+}
+.use_title div span {
+    display: inline-block;
+    color: #7C7C7C;
+    text-transform: uppercase;
+}
+.use_title div {
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.article-content {
+    text-align: justify;
+    margin-top: -20px;
+}
+.article-lead {font-size: 30px;}
+h1.article-content {font-size: 70px;}

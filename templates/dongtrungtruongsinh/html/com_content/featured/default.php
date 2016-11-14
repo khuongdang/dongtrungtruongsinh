@@ -115,7 +115,7 @@ defined('_JEXEC') or die;
 <!-- About Section -->
 
 <!-- Team Section -->
-<section id="team" class="section-content">
+<section id="courses" class="section-content">
     <div class="container">
 
         <!-- Section title -->
@@ -134,99 +134,31 @@ defined('_JEXEC') or die;
             </p>
         </div>
         <!-- Section title -->
-
+<?php
+$use_for = JKentlib::getCategoryFromParent(9, 4);
+?>
         <div class="row">
-
-            <!-- Team item -->
-            <div class="col-md-3 col-sm-3 col-md-3 col-xs-12">
-                <div class="element-line">
-                    <div class="item_top">
-                        <div class="img-rounded team-element zoom">
-                            <div class="team-inner">
-                                <div class="team-detail">
-                                    <div class="team-content">
-                                        <a href="#"><h3><strong>Đông Trùng Hạ Thảo cho người bị tiểu đường </strong></h3></a>
-                                        <!--<ul>
-                                            <li>
-                                                <a href=""><i class="fa fa-facebook fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-twitter fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-google-plus fa-2x"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href=""><i class="fa fa-youtube fa-2x"></i></a>
-                                            </li>
-                                        </ul>-->
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="images/tieuduong01.jpg" alt="" class="img-responsive">
-                        </div>
-                    </div>
+            <div class="element-line">
+            <div class="col-md-12 padding-left">
+                <?php
+                foreach ($use_for as $obj) {
+                    $title_use = $obj->title;
+                    if (isset($obj->description) && !empty($obj->description)) {
+                        $description_use = JKentlib::trimstr($obj->description, 200);
+                    } else {
+                        $description_use = "";
+                    }
+                    $image_use = JKentlib::getCategoryImage($obj->id);
+                ?>
+                <div class="col-md-3 wow animated fadeInLeft margin-left animated" style="visibility: visible; animation-name: fadeInLeft;">
+                    <h4 class="item_left"><a href="" ><?php echo $title_use;?> </a></h4>
+                    <img class="item_right" src="<?php echo $image_use;?>" alt="">
+                    <p class="item_left"><?php echo $description_use; ?> </p>
+                    <a href="#" alt="">Chi tiết <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
+                <?php }?>
             </div>
-            <!-- Team item -->
-
-            <!-- Team item -->
-            <div class="col-md-3 col-sm-3 col-md-3 col-xs-12">
-                <div class="element-line">
-                    <div class="item_bottom">
-                        <div class="img-rounded team-element zoom">
-                            <div class="team-inner">
-                                <div class="team-detail">
-                                    <div class="team-content">
-                                        <a href="#"><h3><strong>Đông Trùng Hạ Thảo cho người bị suy giảm chức năng thận</strong></h3></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="images/than01.jpg" alt="" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
             </div>
-            <!-- Team item -->
-
-            <!-- Team item -->
-            <div class="col-md-3 col-sm-3 col-md-3 col-xs-12">
-                <div class="element-line">
-                    <div class="item_top">
-                        <div class="img-rounded team-element zoom">
-                            <div class="team-inner">
-                                <div class="team-detail">
-                                    <div class="team-content">
-                                        <a href="#"><h3><strong>Đông Trùng Hạ Thảo cho người bị viêm gan, xơ gan </strong></h3></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="images/gan01.jpg" alt="" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Team item -->
-
-            <!-- Team item -->
-            <div class="col-md-3 col-sm-3 col-md-3 col-xs-12">
-                <div class="element-line">
-                    <div class="item_bottom">
-                        <div class="img-rounded team-element zoom">
-                            <div class="team-inner">
-                                <div class="team-detail">
-                                    <div class="team-content">
-                                        <a href="#"><h3><strong>Đông Trùng Hạ Thảo cho người bị viêm phổi và tắc nghẽn phổi</strong></h3></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="images/phoi01.jpg" alt="" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Team item -->
-
         </div>
     </div>
 </section>
