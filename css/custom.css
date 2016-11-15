@@ -6,12 +6,16 @@
 }
 
 h1.slogan {
-    font-family:myfont;
+    font-family: myfont;
     text-transform: capitalize;
     letter-spacing: 2px;
     font-weight: bolder;
 }
-.row {position: relative;}
+
+.row {
+    position: relative;
+}
+
 .bg_thungo {
     position: absolute;
     z-index: -1;
@@ -22,16 +26,17 @@ h1.slogan {
     background-image: url('../images/thungo.jpg');
     width: 100%;
     height: 100%;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
-    filter: alpha(opacity=50);  /* IE 5-7 */
-    -moz-opacity: 0.5;          /* Netscape */
-    -khtml-opacity: 0.5;        /* Safari 1.x */
-    opacity: 0.5;               /* Good browsers */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+    filter: alpha(opacity=50); /* IE 5-7 */
+    -moz-opacity: 0.5; /* Netscape */
+    -khtml-opacity: 0.5; /* Safari 1.x */
+    opacity: 0.5; /* Good browsers */
 }
- .item_left {
+
+.item_left {
     color: #000;
     padding: 0px 15px 25px 15px;
-     text-align: justify;
+    text-align: justify;
 }
 
 .thungo {
@@ -39,7 +44,7 @@ h1.slogan {
 }
 
 .section-content {
-    padding:30px 0 !important;
+    padding: 30px 0 !important;
 }
 
 h1.letter {
@@ -49,13 +54,23 @@ h1.letter {
 }
 
 .team-content a h3:hover {
-    color:#F37820 !important;
+    color: #F37820 !important;
 }
 
-img.img_thungo  { width: 100%;}
+img.img_thungo {
+    width: 100%;
+}
 
-.team-element img {opacity: 0.4;}
-.team-content h3 strong{font-family: myfont; text-transform: capitalize; !important; font-size: 33px;}
+.team-element img {
+    opacity: 0.4;
+}
+
+.team-content h3 strong {
+    font-family: myfont;
+    text-transform: capitalize;
+!important;
+    font-size: 33px;
+}
 
 .footer-v1 .footer {
     padding: 40px 0;
@@ -69,33 +84,41 @@ img.img_thungo  { width: 100%;}
 .footer-v1 .footer p {
     color: #eee;
 }
+
 .footer-v1 .footer-socials {
     margin-top: 12px;
     text-align: right;
 }
+
 .list-inline {
     padding-left: 0;
     margin-left: -5px;
     list-style: none;
 }
+
 .list-inline > li {
     display: inline-block;
     padding-right: 5px;
     padding-left: 5px;
 }
+
 .footer-v1 .footer-socials li a {
     color: #777;
     font-size: 16px;
 }
+
 .footer-v1 .copyright a {
     margin: 0 2px;
 }
+
 .link-list li:first-child {
     border-top: none !important;
 }
+
 .footer-v1 address, .footer-v1 .link-list a, .footer-v1 .link-list i {
     color: #eee;
 }
+
 .link-list a {
     color: #eee;
     padding: 6px 0px;
@@ -106,14 +129,16 @@ img.img_thungo  { width: 100%;}
     color: #eee;
     font-size: 18px;
     font-weight: 200;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
+
 .headline h2, .headline h3, .headline h4 {
     margin: 0 0 -2px 0;
     padding-bottom: 5px;
     display: inline-block;
     border-bottom: 2px solid #F37820;
 }
+
 .contact_form .contact_form_title {
     background: url(../images/247_ic.png) top left no-repeat;
     border-bottom: 1px solid #A4A3A3;
@@ -138,6 +163,7 @@ img.img_thungo  { width: 100%;}
     padding-left: 10px;
     border-radius: 5px;
 }
+
 .contact_form .contact_form_submit ul li {
     float: left;
 }
@@ -149,7 +175,9 @@ img.img_thungo  { width: 100%;}
     margin-left: -15px;
 }
 
-.send_messenger_title {margin-bottom: 20px;}
+.send_messenger_title {
+    margin-bottom: 20px;
+}
 
 .contact_form .contact_form_submit ul li textarea {
     float: left;
@@ -167,6 +195,7 @@ img.img_thungo  { width: 100%;}
     padding-bottom: 0px;
     padding-left: 0px;
 }
+
 .footer_bottom_holder, #lang_sel_footer {
     background-color: #313131;
 }
@@ -244,6 +273,7 @@ img.img_thungo  { width: 100%;}
 .sl-slide {
     z-index: 1;
 }
+
 .sl-slide, .sl-slides-wrapper, .sl-slide-inner {
     position: absolute;
     width: 100%;
@@ -251,7 +281,6 @@ img.img_thungo  { width: 100%;}
     top: 0;
     left: 0;
 }
-
 
 .bg-img {
     background-position: center center;
@@ -265,6 +294,7 @@ img.img_thungo  { width: 100%;}
     background-image: url(http://onesky.vn/assets/homepage/img/about/aboutus-banner.jpg);
     height: 303px;
 }
+
 .slide-caption {
     color: #fff;
     display: table;
@@ -282,10 +312,12 @@ img.img_thungo  { width: 100%;}
     font-size: 45px;
     text-transform: uppercase;
 }
+
 .fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
 }
+
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -293,25 +325,31 @@ img.img_thungo  { width: 100%;}
     animation-fill-mode: both;
 }
 
-.article-content h2{
+.article-content h2 {
     font-family: sans-serif;
 }
 
-.use_title {text-align: center;}
+.use_title {
+    text-align: center;
+}
+
 .use_title .line.big {
     width: 170px;
 }
+
 .use_title .line {
     width: 90px;
     background: #dedede;
     height: 1px;
     margin: 5px 15px;
 }
+
 .use_title div span {
     display: inline-block;
     color: #7C7C7C;
     text-transform: uppercase;
 }
+
 .use_title div {
     font-size: 17px;
     letter-spacing: 1px;
@@ -322,5 +360,54 @@ img.img_thungo  { width: 100%;}
     text-align: justify;
     margin-top: -20px;
 }
-.article-lead {font-size: 30px;}
-h1.article-content {font-size: 70px;}
+
+.article-lead {
+    font-size: 30px;
+}
+
+h1.article-content {
+    font-size: 70px;
+}
+
+/* background setup */
+.background {
+    background-repeat: no-repeat;
+    /* custom background-position */
+    background-position: 50% 50%;
+    /* ie8- graceful degradation */
+    background-position: 50% 50% !important;
+}
+
+.fullscreen,
+.content-a {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.fullscreen.overflow,
+.fullscreen.overflow .content-a {
+    height: auto;
+    min-height: 100%;
+}
+
+/* content centering styles */
+.content-a {
+    display: table;
+}
+
+.content-b {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.not-fullscreen {
+    height: 50%;
+}
+
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}

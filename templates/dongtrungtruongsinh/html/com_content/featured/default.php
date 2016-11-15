@@ -63,50 +63,46 @@ defined('_JEXEC') or die;
 
 <!-- About Section -->
 <section id="about" class="section-content">
-    <div class="container">
-
-        <!-- Section title -->
-        <div class="section-title text-center">
-            <div>
-                <span class="line big"></span>
-                <span class="line big"></span>
-            </div>
-            <h1 class="item_right letter">Câu chuyện của Đông Trùng Hạ Thảo Việt</h1>
-            <div>
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>
-            <!--    <p class="lead">
-                    Alpine is an advertising, media, and creative content agency that helps the new brands explore new and innovative marketing approaches.
-                </p>-->
+    <div class="section-title text-center">
+        <div>
+            <span class="line big"></span>
+            <span class="line big"></span>
         </div>
-        <!-- Section title -->
-        <div class="row">
-            <div class="bg_thungo"></div>
-            <div class="col-md-4">
-                <div class="element-line thungo">
-                    <div class="item_left">
-                        <p>Vào những năm 2005 - 2009, nhóm chúng tôi, là những nghiên cứu sinh chuyên ngành công nghệ sinh học, có may mắn tham gia vào các dự án nghiên cứu và bảo tồn các loại gen quí của Việt Nam do Viện Nghiên Cứu Khoa Học và Phát Triển tiến hành, với sự chỉ dẫn và giám sát của nhiều thầy cô giáo sư công tác ở Viện.</p>
-                        <p>Trong quá trình thực địa thu thập và phân loại thực vật ở những vùng núi Tây Bắc, Bắc Trung Bộ, Nam Trung Bộ, Tây Nguyên … chúng tôi phát hiện được một số chi Đông Trùng Hạ Thảo.</p>
-                        <img class="img_thungo" src="images/quoc1.jpg" />
-                    </div>
+        <h1 class="item_right letter">Câu chuyện của Đông Trùng Hạ Thảo Việt</h1>
+        <div>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <!--    <p class="lead">
+                Alpine is an advertising, media, and creative content agency that helps the new brands explore new and innovative marketing approaches.
+            </p>-->
+    </div>
+    <!-- Section title -->
+    <div class="row">
+        <div class="bg_thungo"></div>
+        <div class="col-md-4">
+            <div class="element-line thungo">
+                <div class="item_left">
+                    <p>Vào những năm 2005 - 2009, nhóm chúng tôi, là những nghiên cứu sinh chuyên ngành công nghệ sinh học, có may mắn tham gia vào các dự án nghiên cứu và bảo tồn các loại gen quí của Việt Nam do Viện Nghiên Cứu Khoa Học và Phát Triển tiến hành, với sự chỉ dẫn và giám sát của nhiều thầy cô giáo sư công tác ở Viện.</p>
+                    <p>Trong quá trình thực địa thu thập và phân loại thực vật ở những vùng núi Tây Bắc, Bắc Trung Bộ, Nam Trung Bộ, Tây Nguyên … chúng tôi phát hiện được một số chi Đông Trùng Hạ Thảo.</p>
+                    <img class="img_thungo" src="images/quoc1.jpg" />
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="element-line thungo">
-                    <div class="item_left">
-                        <p>Vốn biết rằng Đông Trùng Hạ Thảo là loại thảo dược quý từ ngàn xưa, chỉ được các dòng dõi vua chúa của Trung Quốc sử dụng, và duy nhất sinh trưởng ở vùng núi Himalaya ở Tây Tạng; chúng tôi đã rất sung sướng và tự hào rằng Việt Nam cũng có nguồn gen Đông Trùng Hạ Thảo ở tự nhiên.</p>
-                        <p>Từ đó chúng tôi tiếp tục nghiên cứu và tìm tòi phương pháp nuôi trồng Đông Trùng Hạ Thảo ở phòng thí nghiệm.  Niềm đam mê của chúng tôi không chỉ dừng lại trong dự án nghiên cứu của quốc gia, mà trở thành nỗi khao khát và ám ảnh của mỗi thành viên trong nhóm.  Chúng tôi tiếp tục nghiên cứu và thử nghiệm nhiều phương pháp nuôi cấy Đông Trùng Hạ Thảo, cũng như lai tạo nguồn gen tìm được ở Việt Nam với các chủng gen từ Mỹ, Trung Quốc, Hà Quốc để tạo ra chủng giống có hoạt chất cao; cùng với sưự đồng hành, hỗ trợ của các thầy cô giáo sư trong Viện Nghiên Cứu Khoa Học và Phát Triển.</p>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="element-line thungo">
+                <div class="item_left">
+                    <p>Vốn biết rằng Đông Trùng Hạ Thảo là loại thảo dược quý từ ngàn xưa, chỉ được các dòng dõi vua chúa của Trung Quốc sử dụng, và duy nhất sinh trưởng ở vùng núi Himalaya ở Tây Tạng; chúng tôi đã rất sung sướng và tự hào rằng Việt Nam cũng có nguồn gen Đông Trùng Hạ Thảo ở tự nhiên.</p>
+                    <p>Từ đó chúng tôi tiếp tục nghiên cứu và tìm tòi phương pháp nuôi trồng Đông Trùng Hạ Thảo ở phòng thí nghiệm.  Niềm đam mê của chúng tôi không chỉ dừng lại trong dự án nghiên cứu của quốc gia, mà trở thành nỗi khao khát và ám ảnh của mỗi thành viên trong nhóm.  Chúng tôi tiếp tục nghiên cứu và thử nghiệm nhiều phương pháp nuôi cấy Đông Trùng Hạ Thảo, cũng như lai tạo nguồn gen tìm được ở Việt Nam với các chủng gen từ Mỹ, Trung Quốc, Hà Quốc để tạo ra chủng giống có hoạt chất cao; cùng với sưự đồng hành, hỗ trợ của các thầy cô giáo sư trong Viện Nghiên Cứu Khoa Học và Phát Triển.</p>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="element-line thungo">
-                    <div class="item_left">
-                        <p>Đến năm 2015, sau 6 năm làm việc miệt mài, chúng tôi may mắn thực hiện thành công kỹ thuật nuôi trồng Đông trùng hạ thảo trong phòng thí nghiệm, với chủng giống thuần chủng cho năng suất và tỉ lệ hoạt chất cao nhất so với các cơ quan nghiên cứu khác.</p>
-                        <img class="img_thungo" src="images/quoc2.jpg" />
-                        <p>Năm 2016, chúng tôi quyết định mang thành quả nghiên cứu khoa học của nhóm đến cho mọi người với thương hiệu Đông Trùng Hạ Thảo Trường Sinh. Chúng tôi tin rằng bạn sẽ có những trải nghiệm tuyệt vời với Đông trùng hạ thảo Trường Sinh như gia đình và những người thân quen của tôi. Sức khoẻ, hạnh phúc và thịnh vượng sẽ đến với bạn và gia đình bạn.</p>
-                    </div>
+        </div>
+        <div class="col-md-4">
+            <div class="element-line thungo">
+                <div class="item_left">
+                    <p>Đến năm 2015, sau 6 năm làm việc miệt mài, chúng tôi may mắn thực hiện thành công kỹ thuật nuôi trồng Đông trùng hạ thảo trong phòng thí nghiệm, với chủng giống thuần chủng cho năng suất và tỉ lệ hoạt chất cao nhất so với các cơ quan nghiên cứu khác.</p>
+                    <img class="img_thungo" src="images/quoc2.jpg" />
+                    <p>Năm 2016, chúng tôi quyết định mang thành quả nghiên cứu khoa học của nhóm đến cho mọi người với thương hiệu Đông Trùng Hạ Thảo Trường Sinh. Chúng tôi tin rằng bạn sẽ có những trải nghiệm tuyệt vời với Đông trùng hạ thảo Trường Sinh như gia đình và những người thân quen của tôi. Sức khoẻ, hạnh phúc và thịnh vượng sẽ đến với bạn và gia đình bạn.</p>
                 </div>
             </div>
         </div>
@@ -129,13 +125,10 @@ defined('_JEXEC') or die;
                 <span class="line"></span>
                 <span class="line"></span>
             </div>
-            <p class="lead">
-                Đông trùng hạ thảo rất công dụng trong việc chữa trị một số loại bệnh...
-            </p>
         </div>
         <!-- Section title -->
 <?php
-$use_for = JKentlib::getCategoryFromParent(9, 4);
+$use_for = JKentlib::getCategoryFromParent(9, 8);
 ?>
         <div class="row">
             <div class="element-line">
