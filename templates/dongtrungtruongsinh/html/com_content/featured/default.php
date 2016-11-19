@@ -142,12 +142,13 @@ $use_for = JKentlib::getCategoryFromParent(9, 8);
                         $description_use = "";
                     }
                     $image_use = JKentlib::getCategoryImage($obj->id);
+                    $link = JRoute::_(ContentHelperRoute::getCategoryRoute($obj->id));
                 ?>
                 <div class="col-md-3 wow animated fadeInLeft margin-left animated" style="visibility: visible; animation-name: fadeInLeft;">
-                    <h4 class="item_left"><a href="" ><?php echo $title_use;?> </a></h4>
+                    <h4 class="item_left"><a href="<?php echo $link;?>" ><?php echo $title_use;?> </a></h4>
                     <img class="item_right" src="<?php echo $image_use;?>" alt="">
                     <p class="item_left"><?php echo $description_use; ?> </p>
-                    <a href="#" alt="">Chi tiết <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <a href="<?php echo $link;?>" alt="">Chi tiết <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                 </div>
                 <?php }?>
             </div>

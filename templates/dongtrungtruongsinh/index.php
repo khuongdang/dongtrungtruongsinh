@@ -62,62 +62,32 @@
     <div class="container">
         <div class="row">
             <!-- About -->
-            <div class="col-md-4 map-img md-margin-bottom-40">
+            <div class="col-md-6 map-img md-margin-bottom-40">
                 <div class="headline"><h2>Công ty TNHH Herbal Nutrition Care ATD</h2></div>
                 <address class="md-margin-bottom-40">
-                    <b>ĐỊA CHỈ</b> : Số 305/8 Đường Tân Sơn Nhì, P Tân Sơn Nhì, Quận Tân Phú, TP HCMC <br>
-                    <b>ĐIỆN THOẠI</b> : 08 5408 6690
-                    Phone: 800 123 3456 <br>
-                    <b>FAX</b> :  08 5408 6695 <br>
-                    <b>HOTLINE</b> : 0909 939 538 <br>
-                    <b>EMAIL</b> : info@dongtrunghathaotruongsinh.vn <br>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> Số 305/8 Đường Tân Sơn Nhì, P Tân Sơn Nhì, Quận Tân Phú, TP HCMC <br>
+                    <i class="fa fa-phone" aria-hidden="true"></i> 08 5408 6690<br>
+                    <i class="fa fa-fax" aria-hidden="true"></i> 08 5408 6695<br>
+                    <i class="fa fa-mobile" aria-hidden="true"></i> 0902 399 560 <br>
+                    <i class="fa fa-envelope-open" aria-hidden="true"></i>info@dongtrunghathaotruongsinh.vn <br>
                 </address>
             </div>
             <!-- End About -->
 
             <!-- Latest -->
-            <div class="col-md-3 md-margin-bottom-40">
+            <div class="col-md-6 md-margin-bottom-40">
                 <div class="posts">
-                    <div class="headline"><h2>Về chúng tôi</h2></div>
-                    <ul class="list-unstyled link-list">
-                        <?php
-                        $about = JKentlib::getArticleFromCategory(11);
-                        foreach ($about as $obj) {
-                        ?>
-                        <li>
-                            <a href="#"><?php echo $obj->title;?></a>
-                        </li>
-                        <?php }?>
-                    </ul>
+                    <div class="headline"><h2>Liên kết xã hội</h2></div>
+
+                </div>
+                <div class="social-icon">
+                    <a href="#"> <i class="fa fa-facebook fa-3x"></i> </a>
+                    <a href="#"> <i class="fa fa-twitter fa-3x"></i> </a>
+                    <a href="#"> <i class="fa fa-google-plus fa-3x"></i> </a>
+                    <a href="#"> <i class="fa fa-youtube fa-3x"></i> </a>
                 </div>
             </div><!--/col-md-3-->
-            <!-- End Latest -->
 
-            <!-- Link List -->
-            <div class="col-md-2 md-margin-bottom-40">
-                <div class="headline"><h2>Hỗ trợ</h2></div>
-                <ul class="list-unstyled link-list">
-                    <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
-                    <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                    <li><a href="#">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                    <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
-                    <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
-                </ul>
-            </div><!--/col-md-3-->
-            <!-- End Link List -->
-
-            <!-- Address -->
-            <div class="col-md-2 map-img md-margin-bottom-40">
-                <div class="headline"><h2>Khám phá</h2></div>
-                <address class="md-margin-bottom-40">
-                    25, Lorem Lis Street, Orange <br>
-                    California, US <br>
-                    Phone: 800 123 3456 <br>
-                    Fax: 800 123 3456 <br>
-                    Email: <a href="mailto:info@anybiz.com" class="">info@anybiz.com</a>
-                </address>
-            </div><!--/col-md-3-->
-            <!-- End Address -->
         </div>
     </div>
 </div>

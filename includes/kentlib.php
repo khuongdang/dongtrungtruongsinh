@@ -9,6 +9,7 @@ defined('_JEXEC') or die;
 
 final class JKentlib {
     const INTRO_ID = 1;
+    const CATEGORY_GIATRI_Y_HOC = 10;
     public static function getCategoryImage($cat_id)
     {
         $category = JCategories::getInstance('Content')->get($cat_id);

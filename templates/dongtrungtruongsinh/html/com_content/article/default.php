@@ -17,8 +17,19 @@ if (strlen($title) > 80) {
 $category_info = JKentlib::getCategoryInfo($this->item->catid);
 $category_link = JRoute::_(ContentHelperRoute::getCategoryRoute($this->item->catid));
 $artiles_cat = JKentlib::getArticleFromCategory($category_info->id);
+switch ($this->item->id) {
+    case 3:
+        $class_bg = 'bg_aboutus';
+        break;
+    case 4:
+        $class_bg = 'bg_hoatchat';
+        break;
+    default:
+        $class_bg = '';
+        break;
+}
 ?>
-<div class="container">
+<div class="<?php echo $class_bg;?>"></div>
 <!-- Section title -->
 <div class="section-title text-center">
     <div>
@@ -32,17 +43,19 @@ $artiles_cat = JKentlib::getArticleFromCategory($category_info->id);
     </div>
 </div>
 <!-- Section title -->
-    <div class="row">
-        <div class="article-content">
-        <div class="col-md-12">
-            <div class="element-line">
-                <?php echo $this->item->event->beforeDisplayContent; ?>
-                <?php echo $this->item->text; ?>
-                <?php echo $this->item->event->afterDisplayContent; ?>
+<div class="row">
+        <div class="container">
+            <div class="article-content">
+            <div class="col-md-12">
+                <div class="element-line">
+                    <?php echo $this->item->event->beforeDisplayContent; ?>
+                    <?php echo $this->item->text; ?>
+                    <?php echo $this->item->event->afterDisplayContent; ?>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <br /><br />
 </div>
+<br />
+
 

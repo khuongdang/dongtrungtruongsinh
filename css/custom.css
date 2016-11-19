@@ -33,6 +33,44 @@ h1.slogan {
     opacity: 0.5; /* Good browsers */
 }
 
+.bg_aboutus {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../images/bg_aboutus.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+    filter: alpha(opacity=50); /* IE 5-7 */
+    -moz-opacity: 0.5; /* Netscape */
+    -khtml-opacity: 0.5; /* Safari 1.x */
+    opacity: 0.5; /* Good browsers */
+}
+
+.bg_hoatchat {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../images/bg_hoatchat.jpg') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+    filter: alpha(opacity=50); /* IE 5-7 */
+    -moz-opacity: 0.5; /* Netscape */
+    -khtml-opacity: 0.5; /* Safari 1.x */
+    opacity: 0.5; /* Good browsers */
+}
+
 .item_left {
     color: #000;
     padding: 0px 15px 25px 15px;
@@ -117,6 +155,7 @@ img.img_thungo {
 
 .footer-v1 address, .footer-v1 .link-list a, .footer-v1 .link-list i {
     color: #eee;
+    line-height: 40px;
 }
 
 .link-list a {
@@ -126,7 +165,7 @@ img.img_thungo {
 }
 
 .footer-v1 .footer h2 {
-    color: #eee;
+    color: #f37820;
     font-size: 18px;
     font-weight: 200;
     margin-bottom: 10px;
@@ -136,7 +175,7 @@ img.img_thungo {
     margin: 0 0 -2px 0;
     padding-bottom: 5px;
     display: inline-block;
-    border-bottom: 2px solid #F37820;
+    border-bottom: 2px solid #565656;
 }
 
 .contact_form .contact_form_title {
@@ -153,6 +192,8 @@ img.img_thungo {
 .contact_form .Contact_Info {
     float: left;
     padding-top: 20px;
+    line-height:36px;
+    margin-bottom: 13px;
 }
 
 .contact_form .contact_form_submit ul li input {
@@ -176,7 +217,14 @@ img.img_thungo {
 }
 
 .send_messenger_title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #f37820;
+    font-weight: bold;
+    font-size: 17px;
+}
+.contact_title_com {
+    color: #f37820;
 }
 
 .contact_form .contact_form_submit ul li textarea {
@@ -198,6 +246,7 @@ img.img_thungo {
 
 .footer_bottom_holder, #lang_sel_footer {
     background-color: #313131;
+    margin-top: -20px;
 }
 
 .footer_bottom {
@@ -329,6 +378,10 @@ img.img_thungo {
     font-family: sans-serif;
 }
 
+.article-content {
+    color: #000;
+}
+
 .use_title {
     text-align: center;
 }
@@ -410,4 +463,58 @@ h1.article-content {
 html, body {
     /* give this to all tags from html to .fullscreen */
     height:100%;
+}
+i.fa-phone, i.fa-mobile, i.fa-map-marker {color:#F37820; font-size: 22px;
+    margin-right:10px;}
+i.fa-fax, i.fa-envelope-open {color:#F37820; font-size: 18px; margin-right: 10px;}
+.phone {display: table;}
+.phone span{display: table-cell; vertical-align: middle;}
+.section-title .lead {
+    text-align: justify;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 0px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    font-size: 20px;
+    text-align: justify;
+    line-height: 39px;
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
+.giatri-yhoc {
+    font-size: 14px!important;
+    font-weight: normal;
+}
+
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+}
+
+.social-icon a{
+    margin-right:20px; color:#565656;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+}
+.social-icon a:hover {
+    color: #eee;
 }

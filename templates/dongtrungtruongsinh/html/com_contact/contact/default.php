@@ -26,22 +26,22 @@ $webpage = $this->contact->webpage;
                     <table width="100%">
                         <tr>
                             <td colspan="2">
-                                <strong style="font-size: 20px;">Công ty TNHH Herbal Nutrition Care ATD</strong>
+                                <span class="contact_title_com"><strong style="font-size: 20px;">Công ty TNHH Herbal Nutrition Care ATD</strong></span>
                             </td>
                         </tr>
 
                         <tr>
                             <td colspan="2">
-                                <b>ĐỊA CHỈ</b> : Số 305/8 Đường Tân Sơn Nhì, P Tân Sơn Nhì, Quận Tân Phú, TP HCMC
+                                <i class="fa fa-map-marker" aria-hidden="true"></i> Số 305/8 Đường Tân Sơn Nhì, P Tân Sơn Nhì, Quận Tân Phú, TP HCMC
                             </td>
                         </tr>
                         <tr>
-                            <td width="350"><b>ĐIỆN THOẠI</b> : 08 5408 6690 </td>
-                            <td><b>FAX</b> :  08 5408 6695</td>
+                            <td width="350"><div class="phone"><span><i class="fa fa-phone" aria-hidden="true"></i> 08 5408 6690 </span></div></td>
+                            <td><i class="fa fa-fax" aria-hidden="true"></i> 08 5408 6695</td>
                         </tr>
                         <tr>
-                            <td><b>HOTLINE</b> : 0902 399 560 </td>
-                            <td><b>EMAIL</b> : info@dongtrunghathaotruongsinh.vn</td>
+                            <td><i class="fa fa-mobile" aria-hidden="true"></i> : 0902 399 560 </td>
+                            <td width="50%"><i class="fa fa-envelope-open" aria-hidden="true"></i> info@dongtrunghathaotruongsinh.vn</td>
                         </tr>
                     </table>
                 </div>
