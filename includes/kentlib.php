@@ -10,6 +10,8 @@ defined('_JEXEC') or die;
 final class JKentlib {
     const INTRO_ID = 1;
     const CATEGORY_GIATRI_Y_HOC = 10;
+    const PRODUCT_IMG_PATH = 'images/com_hikashop/upload/';
+
     public static function getCategoryImage($cat_id)
     {
         $category = JCategories::getInstance('Content')->get($cat_id);
@@ -151,5 +153,27 @@ final class JKentlib {
             $db->setQuery($query);
             return $db->loadObjectList();
         }
+    }
+
+    public static function getProductImage($product_id)
+    {
+        if (isset($product_id) && !empty($product_id)) {
+            $db = JFactory::getDbo();
+            $query = "SELECT * FROM #__hikashop_file WHERE file_ref_id = $product_id LIMIT 0,1";
+            $db->setQuery($query);
+            return $db->loadObject();
+        }
+    }
+    public static function getAllProducts($cat_id = '')
+    {
+        $db = JFactory::getDbo();
+        if (isset($cat_id) && !empty($cat_id)) {
+            $query = "SELECT * FROM #__hikashop_product as p INNER JOIN #__hikashop_product_category as cat ON p.product_id = cat.product_id";
+            $query.= " WHERE cat.category_id = $cat_id and p.product_published = 1 order by p.product_id ASC";
+        } else {
+            $query = "SELECT * FROM #__hikashop_product as p INNER JOIN #__hikashop_product_category as cat ON p.product_id = cat.product_id WHERE p.product_published = 1 order by p.product_id ASC";
+        }
+        $db->setQuery($query);
+        return $db->loadObjectList();
     }
 }

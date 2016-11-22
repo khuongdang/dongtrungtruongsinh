@@ -6,6 +6,69 @@ $(window).load(function() {
 
 $(document).ready(function() {
 
+    //uses classList, setAttribute, and querySelectorAll
+//if you want this to work in IE8/9 youll need to polyfill these
+    (function(){
+        var d = document,
+            $accordionToggles = $('.js-accordionTrigger'),
+            touchSupported = ('ontouchstart' in window),
+            pointerSupported = ('pointerdown' in window),
+
+            skipClickDelay = function (e) {
+                e.preventDefault();
+                e.target.click();
+            },
+
+            setAriaAttr = function (el, ariaType, newProperty) {
+                el[0].setAttribute(ariaType, newProperty);
+            },
+
+            setAccordionAria = function (el1, el2, expanded) {
+                setAriaAttr(el1, 'aria-expanded', expanded ? true : false);
+                setAriaAttr(el2, 'aria-expanded', expanded ? false : true);
+            },
+
+            switchAccordion = function (e) {
+                e.preventDefault();
+
+                var $this = $(this),
+                    $thisQuestion = $this,
+                    $thisAnswer = $this.closest('dt').next('dd'),
+                    // Check if the answer is in collapsed state
+                    isCollapsed = $thisAnswer.hasClass('is-collapsed');
+
+                // Iterate over all the toggles and collaspse
+                // them all and only toggle the current tab
+                for (var i = 0; i < $accordionToggles.length; i++) {
+                    var $currQuestion = $accordionToggles.eq(i),
+                        $currAnswer = $currQuestion.closest('dt').next('dd');
+
+                    setAccordionAria($currQuestion, $currAnswer, false);
+
+                    $currQuestion.addClass('is-collapsed').removeClass('is-expanded');
+                    $currAnswer.addClass('is-collapsed').removeClass('is-expanded animateIn');
+                }
+
+                if (isCollapsed) {
+                    setAccordionAria($thisQuestion, $thisAnswer, true);
+
+                    $thisQuestion.addClass('is-expanded is-collapsed');
+                    $thisAnswer.addClass('is-expanded animateIn').removeClass('is-collapsed');
+                }
+            };
+
+        // Assign the click events using jQuery
+
+        if (touchSupported) {
+            $accordionToggles.on('touchstart', skipClickDelay);
+        }
+        if (pointerSupported) {
+            $accordionToggles.on('pointerdown', skipClickDelay);
+        }
+        $accordionToggles.on('click', switchAccordion);
+
+    })();
+
     /* fix vertical when not overflow
      call fullscreenFix() if .fullscreen content changes */
     function fullscreenFix(){
@@ -219,7 +282,8 @@ $(document).ready(function() {
         var winWidth = $(window).width(), columnNumb = splitColumns(), postWidth = Math.floor(winWidth / columnNumb);
         container.find('.portfolio-item').each(function() {
             $(this).css({
-                width : postWidth + 'px'
+                width : postWidth - 90 + 'px',
+                "margin-left" : '58px'
             });
         });
     }
@@ -293,6 +357,7 @@ $(document).ready(function() {
     }
 
 });
+
 
 //FullScreen Slider
 $(function() {

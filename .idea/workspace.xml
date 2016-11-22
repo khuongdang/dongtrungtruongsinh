@@ -2,22 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9617640d-19fd-4e44-b672-3ff8499b2aad" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_sanpham/views/sanpham/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default_filter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_sanpham/views/sanpham/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_congdung/views/listcongdung/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_congdung/views/listcongdung/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_sanpham.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_sanpham.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_sanpham.sys.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_sanpham.sys.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_sanpham/views/sanphams/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_sanpham/views/sanphams/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.php" afterPath="$PROJECT_DIR$/configuration.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dongtrungtruongsinh.sql" afterPath="$PROJECT_DIR$/dongtrungtruongsinh.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-responsive.css" afterPath="$PROJECT_DIR$/css/style-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/kentlib.php" afterPath="$PROJECT_DIR$/includes/kentlib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-countTo.js" afterPath="$PROJECT_DIR$/js/jquery-countTo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.mb.YTPlayer.js" afterPath="$PROJECT_DIR$/js/jquery.mb.YTPlayer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/en-GB/en-GB.com_sanpham.ini" afterPath="$PROJECT_DIR$/language/en-GB/en-GB.com_sanpham.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_contact/contact/default.php" afterPath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_contact/contact/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/article/default.php" afterPath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/article/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/category/blog.php" afterPath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/category/blog.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php" afterPath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php" afterPath="$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/mod_articles_category/default.php" afterPath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/mod_articles_category/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/mod_breadcrumbs/default.php" afterPath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/mod_breadcrumbs/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/mod_menu/default.php" afterPath="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/mod_menu/default.php" />
     </list>
     <ignored path="dongtrungtruongsinh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +52,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
+            <state relative-caret-position="0">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -51,18 +62,141 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-646">
-              <caret line="150" column="48" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
+            <state relative-caret-position="260">
+              <caret line="191" column="98" selection-start-line="191" selection-start-column="6" selection-end-line="191" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/com_congdung/views/listcongdung/tmpl/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="816">
               <caret line="48" column="90" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configuration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../KENT/TAM/simpleone/simpleone/product.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanphams/tmpl/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="25" column="102" selection-start-line="25" selection-start-column="102" selection-end-line="25" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default_filter.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default_filter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="76" column="69" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sanpham.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_sanpham/sanpham.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_sanpham/controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en-GB.com_sanpham.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.com_sanpham.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en-GB.com_sanpham.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_sanpham.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en-GB.com_sanpham.sys.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_sanpham.sys.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.html.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanpham/view.html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,9 +205,11 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="518" column="16" selection-start-line="518" selection-start-column="16" selection-end-line="518" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="11815">
+              <caret line="695" column="0" selection-start-line="695" selection-start-column="0" selection-end-line="695" selection-end-column="0" />
+              <folding>
+                <marker date="1479802897000" expanded="true" signature="759:994" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,9 +217,12 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_contact/contact/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="43" column="99" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="99" />
-              <folding />
+            <state relative-caret-position="731">
+              <caret line="53" column="99" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="99" />
+              <folding>
+                <marker date="1479802553000" expanded="true" signature="2023:2086" ph="..." />
+                <marker date="1479802553000" expanded="true" signature="2023:2109" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,11 +230,10 @@
       <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/article/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="612">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding>
-                <marker date="1479233516654" expanded="true" signature="966:987" ph="..." />
-                <marker date="1479233516654" expanded="true" signature="1141:1162" ph="..." />
+                <element signature="e#6#244#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -104,8 +242,8 @@
       <file leaf-file-name="blog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/category/blog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -146,7 +284,16 @@
         <option value="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/category/blog.php" />
         <option value="$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/configuration.php" />
+        <option value="$PROJECT_DIR$/../../KENT/TAM/simpleone/simpleone/product.html" />
+        <option value="$PROJECT_DIR$/components/com_sanpham/views/sanpham/view.html.php" />
+        <option value="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_sanpham.ini" />
+        <option value="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_sanpham.sys.ini" />
+        <option value="$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default.xml" />
+        <option value="$PROJECT_DIR$/language/en-GB/en-GB.com_sanpham.ini" />
+        <option value="$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default.php" />
         <option value="$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php" />
+        <option value="$PROJECT_DIR$/components/com_sanpham/views/sanphams/tmpl/default.php" />
       </list>
     </option>
   </component>
@@ -164,10 +311,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -255,7 +401,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -277,137 +422,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com_content">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="featured">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com_content">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="category">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="html">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com_content">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="article">
+            <PATH_ELEMENT USER_OBJECT="components">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -425,9 +440,120 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com_sanpham">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="components">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com_sanpham">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="components">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com_sanpham">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="models">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="components">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com_sanpham">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="helpers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="components">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com_sanpham">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="controllers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dongtrungtruongsinh">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="components">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com_content">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
@@ -440,6 +566,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/com_sanpham/views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -511,21 +642,22 @@
       <workItem from="1479137364970" duration="2010000" />
       <workItem from="1479139851751" duration="21105000" />
       <workItem from="1479525513050" duration="5358000" />
+      <workItem from="1479800727772" duration="2400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85822000" />
+    <option name="totallyTimeSpent" value="88222000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="0" y="23" width="1920" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19215938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32166892" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33690986" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -534,9 +666,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32166892" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33793104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -559,6 +691,69 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_congdung/views/listcongdung/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8806">
+          <caret line="518" column="16" selection-start-line="518" selection-start-column="16" selection-end-line="518" selection-end-column="16" />
+          <folding>
+            <marker date="1479802897000" expanded="true" signature="759:994" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_contact/contact/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="99" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="99" />
+          <folding>
+            <marker date="1479802553000" expanded="true" signature="2023:2086" ph="..." />
+            <marker date="1479802553000" expanded="true" signature="2023:2109" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/article/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="e#6#244#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/category/blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -569,7 +764,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7888">
           <caret line="464" column="70" selection-start-line="464" selection-start-column="70" selection-end-line="464" selection-end-column="70" />
-          <folding />
+          <folding>
+            <marker date="1479802897000" expanded="true" signature="759:994" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,7 +774,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="99" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="99" />
-          <folding />
+          <folding>
+            <marker date="1479802553000" expanded="true" signature="2023:2086" ph="..." />
+            <marker date="1479802553000" expanded="true" signature="2023:2109" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -593,7 +793,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
+          <folding>
+            <marker date="1479802897000" expanded="true" signature="759:994" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -636,19 +838,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1479388510580" expanded="true" signature="732:777" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1047:1136" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="1761:1831" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1918:1997" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1918:1999" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="2510:2545" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="2829:2867" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="3216:3277" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="3339:3377" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="4692:4760" ph="SELECT * FRO... dtds_phocagallery" />
-            <marker date="1479388510580" expanded="true" signature="4692:4782" ph="SELECT * FRO... dtds_phocagallery" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -657,8 +847,7 @@
         <state relative-caret-position="160">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
-            <marker date="1479233516654" expanded="true" signature="966:987" ph="..." />
-            <marker date="1479233516654" expanded="true" signature="1141:1162" ph="..." />
+            <element signature="e#6#244#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -667,7 +856,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1479802553000" expanded="true" signature="2023:2086" ph="..." />
+            <marker date="1479802553000" expanded="true" signature="2023:2109" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -690,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6688">
           <caret line="418" column="125" selection-start-line="418" selection-start-column="125" selection-end-line="418" selection-end-column="125" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +905,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
+          <folding>
+            <marker date="1479802897000" expanded="true" signature="759:994" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -757,19 +950,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <marker date="1479388510580" expanded="true" signature="732:777" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1047:1136" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="1761:1831" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1918:1997" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1918:1999" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="2510:2545" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="2829:2867" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="3216:3277" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="3339:3377" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="4692:4760" ph="SELECT * FRO... dtds_phocagallery" />
-            <marker date="1479388510580" expanded="true" signature="4692:4782" ph="SELECT * FRO... dtds_phocagallery" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -778,8 +959,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479233516654" expanded="true" signature="966:987" ph="..." />
-            <marker date="1479233516654" expanded="true" signature="1141:1162" ph="..." />
+            <element signature="e#6#244#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -788,7 +968,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1479802553000" expanded="true" signature="2023:2086" ph="..." />
+            <marker date="1479802553000" expanded="true" signature="2023:2109" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -811,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6688">
           <caret line="418" column="125" selection-start-line="418" selection-start-column="125" selection-end-line="418" selection-end-column="125" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +1017,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5491">
           <caret line="323" column="37" selection-start-line="323" selection-start-column="37" selection-end-line="323" selection-end-column="37" />
-          <folding />
+          <folding>
+            <marker date="1479802897000" expanded="true" signature="759:994" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -857,19 +1041,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <marker date="1479388510580" expanded="true" signature="732:777" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1047:1136" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="1761:1831" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1918:1997" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1918:1999" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="2510:2545" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="2829:2867" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="3216:3277" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="3339:3377" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="4692:4760" ph="SELECT * FRO... dtds_phocagallery" />
-            <marker date="1479388510580" expanded="true" signature="4692:4782" ph="SELECT * FRO... dtds_phocagallery" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -878,8 +1050,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1479233516654" expanded="true" signature="966:987" ph="..." />
-            <marker date="1479233516654" expanded="true" signature="1141:1162" ph="..." />
+            <element signature="e#6#244#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -888,7 +1059,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
+          <folding>
+            <marker date="1479802553000" expanded="true" signature="2023:2086" ph="..." />
+            <marker date="1479802553000" expanded="true" signature="2023:2109" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -911,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7106">
           <caret line="418" column="125" selection-start-line="418" selection-start-column="125" selection-end-line="418" selection-end-column="125" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,19 +1108,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
           <caret line="87" column="49" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="49" />
-          <folding>
-            <marker date="1479388510580" expanded="true" signature="732:777" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1047:1136" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="1761:1831" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1918:1997" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1918:1999" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="2510:2545" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="2829:2867" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="3216:3277" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="3339:3377" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="4692:4760" ph="SELECT * FRO... dtds_phocagallery" />
-            <marker date="1479388510580" expanded="true" signature="4692:4782" ph="SELECT * FRO... dtds_phocagallery" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -955,7 +1116,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="85" selection-start-line="42" selection-start-column="28" selection-end-line="43" selection-end-column="85" />
-          <folding />
+          <folding>
+            <marker date="1479802553000" expanded="true" signature="2023:2086" ph="..." />
+            <marker date="1479802553000" expanded="true" signature="2023:2109" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -978,7 +1142,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1479802897000" expanded="true" signature="759:994" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1393,13 +1559,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/php.ini" />
     <entry file="file://$PROJECT_DIR$/libraries/joomla/filter/output.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
@@ -1453,7 +1613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="418" column="125" selection-start-line="418" selection-start-column="125" selection-end-line="418" selection-end-column="125" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1478,13 +1637,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/TAM/DONG TRUNG HA THAO/font-awesome-4.7.0/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/TAM/DONG TRUNG HA THAO/font-awesome-4.7.0/css/font-awesome.css" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-119">
@@ -1503,19 +1656,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-          <folding>
-            <marker date="1479388510580" expanded="true" signature="732:777" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1047:1136" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="1761:1831" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1918:1997" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="1918:1999" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="2510:2545" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="2829:2867" ph="SELECT * FRO... dtds_categories" />
-            <marker date="1479388510580" expanded="true" signature="3216:3277" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="3339:3377" ph="SELECT * FRO... dtds_content" />
-            <marker date="1479388510580" expanded="true" signature="4692:4760" ph="SELECT * FRO... dtds_phocagallery" />
-            <marker date="1479388510580" expanded="true" signature="4692:4782" ph="SELECT * FRO... dtds_phocagallery" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1564,65 +1705,232 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/article/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="612">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
-            <marker date="1479233516654" expanded="true" signature="966:987" ph="..." />
-            <marker date="1479233516654" expanded="true" signature="1141:1162" ph="..." />
+            <element signature="e#6#244#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_contact/contact/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="43" column="99" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="99" />
-          <folding />
+        <state relative-caret-position="731">
+          <caret line="53" column="99" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="99" />
+          <folding>
+            <marker date="1479802553000" expanded="true" signature="2023:2086" ph="..." />
+            <marker date="1479802553000" expanded="true" signature="2023:2109" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/category/blog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="518" column="16" selection-start-line="518" selection-start-column="16" selection-end-line="518" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="11815">
+          <caret line="695" column="0" selection-start-line="695" selection-start-column="0" selection-end-line="695" selection-end-column="0" />
+          <folding>
+            <marker date="1479802897000" expanded="true" signature="759:994" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="150" column="48" selection-start-line="150" selection-start-column="48" selection-end-line="150" selection-end-column="48" />
+        <state relative-caret-position="0">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_congdung/views/listcongdung/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="816">
           <caret line="48" column="90" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../KENT/TAM/simpleone/simpleone/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanphams/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanpham/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanpham/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default_filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="76" column="69" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_sanpham.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_sanpham.sys.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language/en-GB/en-GB.com_sanpham.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/controllers/sanphams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/helpers/sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-732">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/models/sanphams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanpham/tmpl/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="104" column="21" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_content/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dongtrungtruongsinh/html/com_content/featured/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="191" column="98" selection-start-line="191" selection-start-column="6" selection-end-line="191" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_sanpham/views/sanphams/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="25" column="102" selection-start-line="25" selection-start-column="102" selection-end-line="25" selection-end-column="102" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
   <component name="webServersAuthStorage">
-    <data>AAAAwFq3HhhGxvbtrXAn5836XBkXESleoZlUt5k7nx1uHY2M8XHWXAWcvW2LZAf4uUIEs0oVcOXTnkIDlDQBpqT4pK7tgPhO5qxoECJLsjxLYLnoBkov9M1vlTLWFvtFyagQs8rz0V5BAaPk8jUULqroB//wYNH6gwZhECuCfdNQf9Or1lDHdo/iU99JQoVFcDLDRBiEIFdBQ/FY3wrJuoSfJgsly4n7riySA8lY2/Na3ZMOa8pt49IaaQQwUgTQ1bebegkbfX4TSlHsPk2nRL/1lvM=</data>
+    <data>AAAAwCxcp5mtc5KyNuHeQGrw73wgGyufCbFpx8cMfBJ1PHUelqxcekazpJKvg5k+18zvMOQCoznR9reB4epe4jl6S6OCGJ6Ku3bmpRd226Cfp7G6hiyFfySbSmCYQzGY2Ziadxe52zOEjgh06nmj3TeXO6yUNUnmYxab+6Wgc58/Am6+BqwzGDe5W7+p35Nw3FKyMxKfuevMg1y8mWv2SY2n/XkYc1JKSubTZMtZXb7TUdeR+PWH0fpV0PPlEygqSXB8tKCg3S2RapZy1fWwOtq3Q0E=</data>
   </component>
 </project>

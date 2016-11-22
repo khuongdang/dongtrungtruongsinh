@@ -10,7 +10,9 @@ Author URI: http://themeforest.net/user/creativeispiration
 
 /* ExtraSmall devices (tablets, 767px and down) */
 @media (max-width: 767px) {
-
+    h1.article-content {
+        font-size: 30px;
+    }
     .flexslider{ text-align:center;}
 
     #home .section-title h1 {
@@ -86,7 +88,7 @@ Author URI: http://themeforest.net/user/creativeispiration
         margin: 25px 0 0 0;
     }
     .element-line {
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
     #ajaxpage .section-title h1 {
@@ -190,7 +192,6 @@ Author URI: http://themeforest.net/user/creativeispiration
     #courses .container .col-md-3 {
         width: 23.7%;
         border: 1px solid #eaf0f3;
-        margin-left: 14px;
         background-color: #f8f8f8;
     }
 }
@@ -215,6 +216,16 @@ Author URI: http://themeforest.net/user/creativeispiration
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #portfolio-wrap {margin-left: 35px;}
+    .section-title h1 {
+        font-size: 70px;}
+    .product_name {display: none;}
+    h1.article-content {
+        font-size: 70px;
+    }
+    h1.letter {
+        letter-spacing: 2px;
+    }
     #courses .container .col-md-3 {
         width: 23.7%;
         border: 1px solid #eaf0f3;
@@ -312,17 +323,47 @@ Author URI: http://themeforest.net/user/creativeispiration
 }
 
 @media (max-width: 1200px) {
+    #portfolio-wrap {
+        margin-left: -12px;
+    }
+    .section-title h1 {
+        font-size: 48px !important;
+    }
+    .product_name {
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        color: #f37820;
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 16px;
+        padding: 5px 0px 5px 0px;
+        background: rgba(255,255,255,1);
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+        background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+        font-weight: bold;
+    }
+    h1.letter {
+        letter-spacing: 1px;
+    }
+    h1.article-content {
+        font-size: 40px;
+        padding: 10px;
+    }
     #courses .container .col-md-3 {
         width: 100%;
         border: 1px solid #eaf0f3;
-        margin-left: 14px;
         background-color: #f8f8f8;
         margin-bottom: 10px;
         float: left;
     }
     #courses .container .col-md-3 img {
         max-width: 100%;
-        float: left;
         margin-right: 10px;
     }
   .item_top {
@@ -362,4 +403,5 @@ Author URI: http://themeforest.net/user/creativeispiration
     .pricing-box li h1 {
         font-size: 60px;
     }
+
 }

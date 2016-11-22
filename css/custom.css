@@ -44,12 +44,12 @@ h1.slogan {
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    height: 100%;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
     filter: alpha(opacity=50); /* IE 5-7 */
     -moz-opacity: 0.5; /* Netscape */
     -khtml-opacity: 0.5; /* Safari 1.x */
     opacity: 0.5; /* Good browsers */
+    zoom: 2;
 }
 
 .bg_hoatchat {
@@ -73,22 +73,23 @@ h1.slogan {
 
 .item_left {
     color: #000;
-    padding: 0px 15px 25px 15px;
+    padding: 0px 15px 5px 0px;
     text-align: justify;
 }
 
 .thungo {
     margin-top: 30px !important;
+    margin-left: 15px;
 }
 
 .section-content {
-    padding: 30px 0 !important;
+    padding: 0px 0 !important;
 }
 
 h1.letter {
     font-family: myfont;
     text-transform: capitalize;
-    letter-spacing: 2px;
+    margin-top:5px;
 }
 
 .team-content a h3:hover {
@@ -381,6 +382,11 @@ img.img_thungo {
 .article-content {
     color: #000;
 }
+.article-content img {
+    max-width:100% !important;
+    height:auto;
+    display:block;
+}
 
 .use_title {
     text-align: center;
@@ -416,10 +422,6 @@ img.img_thungo {
 
 .article-lead {
     font-size: 30px;
-}
-
-h1.article-content {
-    font-size: 70px;
 }
 
 /* background setup */
@@ -518,3 +520,178 @@ br {
 .social-icon a:hover {
     color: #eee;
 }
+
+.accordion dt {
+    margin-top:10px;
+}
+.accordion dl,
+.accordion-list {
+}
+.accordion dl:after,
+.accordion-list:after {
+    content: "";
+    display: block;
+    height: 1em;
+    width: 100%;
+}
+
+.accordion dd,
+.accordion__panel {
+    background-color: #eee;
+    font-size: 1em;
+    line-height: 1.5em;
+    border: 1px solid #ddd;
+}
+
+.accordion p {
+    padding: 1em 2em 1em 2em;
+}
+
+.accordion {
+    position: relative;
+}
+
+.accordionTitle,
+.accordion__Heading {
+    background-color: #3C5087;
+    text-align: left;
+    font-weight: 700;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+    border-bottom: 1px solid #30bb64;
+}
+.accordionTitle:before,
+.accordion__Heading:before {
+    margin-right: 10px;
+    margin-top:5px;
+    content: "+";
+    font-size: 1.5em;
+    line-height: 0.5em;
+    float: left;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.accordionTitle:hover,
+.accordion__Heading:hover {
+    background-color: #313E67;
+    color:#F37820
+}
+.accordionTitle:focus {
+    color:#F37820;
+}
+
+.accordionTitleActive,
+.accordionTitle.is-expanded {
+    background-color: #313E67;
+}
+.accordionTitleActive:before,
+.accordionTitle.is-expanded:before {
+    -webkit-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+}
+
+.accordionItem {
+    height: auto;
+    overflow: hidden;
+    -webkit-transition: max-height 1s;
+    transition: max-height 1s;
+    margin-bottom: 10px;
+}
+@media screen and (min-width: 48em) {
+    .accordionItem {
+        -webkit-transition: max-height 0.5s;
+        transition: max-height 0.5s;
+    }
+}
+
+.accordionItem.is-collapsed {
+    max-height: 0;
+}
+
+.no-js .accordionItem.is-collapsed {
+    max-height: auto;
+}
+
+.animateIn {
+    -webkit-animation: accordionIn 0.45s normal ease-in-out both 1;
+    animation: accordionIn 0.45s normal ease-in-out both 1;
+}
+
+.animateOut {
+    -webkit-animation: accordionOut 0.45s alternate ease-in-out both 1;
+    animation: accordionOut 0.45s alternate ease-in-out both 1;
+}
+
+@-webkit-keyframes accordionIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.9) rotateX(-60deg);
+        transform: scale(0.9) rotateX(-60deg);
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes accordionIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.9) rotateX(-60deg);
+        transform: scale(0.9) rotateX(-60deg);
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@-webkit-keyframes accordionOut {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(0.9) rotateX(-60deg);
+        transform: scale(0.9) rotateX(-60deg);
+    }
+}
+@keyframes accordionOut {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(0.9) rotateX(-60deg);
+        transform: scale(0.9) rotateX(-60deg);
+    }
+}
+.accordion-text1 {
+    clear: both; margin: 0px 0px 20px 0px;}
+.portfolio {border: 1px solid #ddd;}
+em.lead:hover {color:#F37820;}
+#portfolio-wrap .portfolio-item a .hover-items span i {
+    color: #18ba9b !important;
+}
+#portfolio-wrap .portfolio-item a .hover-items span em.lead {
+    color: #f37820;
+}
+
+.col-md-3 p.item_left { max-height: 135px; overflow: hidden;}
+
+.footer-v1 {margin-top: 20px;}

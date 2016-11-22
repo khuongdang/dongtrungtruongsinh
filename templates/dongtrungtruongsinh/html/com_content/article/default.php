@@ -29,7 +29,7 @@ switch ($this->item->id) {
         break;
 }
 ?>
-<div class="<?php echo $class_bg;?>"></div>
+<div id="<?php echo $class_bg;?>" class="<?php echo $class_bg;?>"></div>
 <!-- Section title -->
 <div class="section-title text-center">
     <div>
@@ -43,7 +43,7 @@ switch ($this->item->id) {
     </div>
 </div>
 <!-- Section title -->
-<div class="row">
+<div class="row"  id="row">
         <div class="container">
             <div class="article-content">
             <div class="col-md-12">
@@ -58,4 +58,11 @@ switch ($this->item->id) {
 </div>
 <br />
 
-
+<script>
+    var body = document.body, html = document.documentElement;
+    var height = Math.max( body.scrollHeight, body.offsetHeight,
+        html.clientHeight, html.scrollHeight, html.offsetHeight );
+    console.log(height);
+    document.getElementById('<?php echo $class_bg;?>').style.minHeight = '1000px';
+    document.getElementById('<?php echo $class_bg;?>').style.height = height  + 'px';
+</script>

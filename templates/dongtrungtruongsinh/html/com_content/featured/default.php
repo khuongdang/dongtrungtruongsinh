@@ -1,5 +1,7 @@
 <?php
 defined('_JEXEC') or die;
+use JKentlib AS LIB;
+$product_list = LIB::getAllProducts();
 ?>
 
 <!-- Home Section -->
@@ -137,7 +139,7 @@ $use_for = JKentlib::getCategoryFromParent(9, 8);
                 foreach ($use_for as $obj) {
                     $title_use = $obj->title;
                     if (isset($obj->description) && !empty($obj->description)) {
-                        $description_use = JKentlib::trimstr($obj->description, 200);
+                        $description_use = JKentlib::trimstr($obj->description, 280);
                     } else {
                         $description_use = "";
                     }
@@ -172,9 +174,6 @@ $use_for = JKentlib::getCategoryFromParent(9, 8);
                 <span class="line"></span>
                 <span class="line"></span>
             </div>
-            <p class="lead">
-                Chúng tôi mang lại những sản phẩm công dụng đặt biệt nhất cho quý khách hàng
-            </p>
         </div>
         <!-- Section title -->
     </div>
@@ -186,51 +185,24 @@ $use_for = JKentlib::getCategoryFromParent(9, 8);
     </div>
 
     <div id="portfolio-wrap">
-
+        <?php foreach ($product_list as $product) {
+        $product_name = $product->product_name;
+        $product_image = LIB::getProductImage($product->product_id);
+        $product_image = LIB::PRODUCT_IMG_PATH . $product_image->file_path;
+        $link = JRoute::_('index.php?option=com_sanpham&view=sanpham&id=' . $product->product_id);
+        ?>
         <!-- portfolio item -->
-        <div class="portfolio-item web">
-            <div class="portfolio">
-                <a href="google.com.vn" class="zoom"> <img src="images/products.jpg" alt="">
-                    <div class="hover-items">
-                        <span> <i class="fa fa-pagelines fa-4x"></i> <em class="lead">Ducati Monster 620 Racer</em> <em>Photo slider</em> </span>
-                    </div> </a>
+            <div class="portfolio-item web">
+                <div align="center" class="product_name"><?php echo $product_name;?></div>
+                <div class="portfolio">
+                    <a href="<?php echo $link;?>" class="zoom"> <img src="<?php echo $product_image; ?>" alt="">
+                        <div class="hover-items">
+                            <span> <i class="fa fa-pagelines fa-4x"></i> <em class="lead"><?php echo $product_name;?></em></span>
+                        </div> </a>
+                </div>
             </div>
-        </div>
         <!-- portfolio item -->
-
-        <!-- portfolio item -->
-        <div class="portfolio-item web">
-            <div class="portfolio">
-                <a href="google.com.vn" class="zoom"> <img src="images/products.jpg" alt="">
-                    <div class="hover-items">
-                        <span> <i class="fa fa-pagelines fa-4x"></i> <em class="lead">Ducati Monster 620 Racer</em> <em>Photo slider</em> </span>
-                    </div> </a>
-            </div>
-        </div>
-        <!-- portfolio item -->
-
-        <!-- portfolio item -->
-        <div class="portfolio-item web">
-            <div class="portfolio">
-                <a href="google.com.vn" class="zoom"> <img src="images/products.jpg" alt="">
-                    <div class="hover-items">
-                        <span> <i class="fa fa-pagelines fa-4x"></i> <em class="lead">Ducati Monster 620 Racer</em> <em>Photo slider</em> </span>
-                    </div> </a>
-            </div>
-        </div>
-        <!-- portfolio item -->
-
-        <!-- portfolio item -->
-        <div class="portfolio-item web">
-            <div class="portfolio">
-                <a href="google.com.vn" class="zoom"> <img src="images/products.jpg" alt="">
-                    <div class="hover-items">
-                        <span> <i class="fa fa-pagelines fa-4x"></i> <em class="lead">Ducati Monster 620 Racer</em> <em>Photo slider</em> </span>
-                    </div> </a>
-            </div>
-        </div>
-        <!-- portfolio item -->
-
+        <?php } ?>
     </div>
 
     <!-- Ajax Portfolio content -->
