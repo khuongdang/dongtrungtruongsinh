@@ -5,6 +5,12 @@ $(window).load(function() {
 });
 
 $(document).ready(function() {
+    // Prdouctpagetab
+    $('#myTab a:first').tab('show')
+    $('#myTab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
 
     //uses classList, setAttribute, and querySelectorAll
 //if you want this to work in IE8/9 youll need to polyfill these
