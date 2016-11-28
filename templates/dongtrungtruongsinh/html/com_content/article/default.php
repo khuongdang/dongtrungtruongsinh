@@ -58,11 +58,4 @@ switch ($this->item->id) {
 </div>
 <br />
 
-<script>
-    var body = document.body, html = document.documentElement;
-    var height = Math.max( body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight );
-    console.log(height);
-    document.getElementById('<?php echo $class_bg;?>').style.minHeight = '1000px';
-    document.getElementById('<?php echo $class_bg;?>').style.height = height  + 'px';
-</script>
+

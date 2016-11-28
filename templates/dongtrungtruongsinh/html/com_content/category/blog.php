@@ -33,18 +33,33 @@ switch ($category_info->id) {
                 <div class="article-content">
                     <div class="accordion">
                         <dl>
-                            <?php foreach ($article_list as $obj) {
-                            $text = $obj->introtext . $obj->fulltext;
-                            ?>
+                            <?php
+                            if (count($article_list) > 1) {
+                                foreach ($article_list as $obj) {
+                                $text = $obj->introtext . $obj->fulltext;
+                                ?>
+                                <dt>
+                                    <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger"><?php echo $obj->title;?></a>
+                                </dt>
+                                <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+                                    <div class="accordion-text1"> </div>
+                                    <?php echo $text;?>
+                                    <div class="accordion-text1"> </div>
+                                </dd>
+                                <?php }
+                            } else {
+                                $title = $article_list[0]->title;
+                                $text = $article_list[0]->introtext . $article_list[0]->fulltext;
+                                ?>
                             <dt>
-                                <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger"><?php echo $obj->title;?></a>
+                                <a href="#accordion1" aria-expanded="true" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger"><?php echo $title;?></a>
                             </dt>
-                            <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
-                                <div class="accordion-text1"> </div>
-                                <?php echo $text;?>
-                                <div class="accordion-text1"> </div>
-                            </dd>
-                            <?php } ?>
+                                <dd class="accordion-content accordionItem is-expanded" id="accordion1" aria-hidden="false">
+                                    <div class="accordion-text1"> </div>
+                                    <?php echo $text;?>
+                                    <div class="accordion-text1"> </div>
+                                </dd>
+                            <?php }?>
                         </dl>
                     </div>
                 </div>

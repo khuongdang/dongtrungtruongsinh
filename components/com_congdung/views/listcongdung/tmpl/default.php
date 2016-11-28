@@ -17,15 +17,13 @@ require_once $com_path . 'helpers/route.php';
                 <span class="line"></span>
                 <span class="line"></span>
             </div>
-            <p class="lead">
                 <blockquote>
-                Chìa khoá khiến Đông Trùng Hạ Thảo được mệnh danh là “thần dược” trong y học Trung Hoa chính là hoạt chất Cordycepin, hoạt chất có duy nhất ở Đông Trùng Hạ Thảo và chưa tổng hợp nhân tạo được.
+                Chìa khoá khiến Đông Trùng Hạ Thảo được mệnh danh là “thần dược” trong y học Trung Hoa chính là hoạt chất Cordycepin, hoạt chất có duy nhất ở Đông Trùng Hạ Thảo và chưa tổng hợp nhân tạo được. <br>
 
-                Tác dụng lớn nhất của Cordycepin là tăng cường sức mạnh của hệ miễn dịch thông qua việc ngăn chặn quá trình nhân đôi tế bào của virus, vi khuẩn, tế bào lạ, ác tính; nâng cao khả năng tự hồi phục của cơ thể, chống chọi và đẩy lùi các loại bệnh.
+                Tác dụng lớn nhất của Cordycepin là tăng cường sức mạnh của hệ miễn dịch thông qua việc ngăn chặn quá trình nhân đôi tế bào của virus, vi khuẩn, tế bào lạ, ác tính; nâng cao khả năng tự hồi phục của cơ thể, chống chọi và đẩy lùi các loại bệnh.<br>
 
-                Dựa trên cơ chế này,  Cordycepin đóng vai trò quan trọng trong hỗ trợ điều trị các bệnh về gan, thận, phổi, tim mạch, sinh lý, tiểu đường, điều hoà nội tiết tố nữ … và đặc biệt là hiện nay, Cordycepin được ứng dụng rộng rãi trong điều trị ung thư. Hoạt chất này ngăn chặn quá trình phân bào của tế bào ung thư, hỗ trợ điều trị ung thư, ngăn chặn quá trình di căn và xâm lấn của tế bào ung thư.
+                Dựa trên cơ chế này,  Cordycepin đóng vai trò quan trọng trong hỗ trợ điều trị các bệnh về gan, thận, phổi, tim mạch, sinh lý, tiểu đường, điều hoà nội tiết tố nữ … và đặc biệt là hiện nay, Cordycepin được ứng dụng rộng rãi trong điều trị ung thư. Hoạt chất này ngăn chặn quá trình phân bào của tế bào ung thư, hỗ trợ điều trị ung thư, ngăn chặn quá trình di căn và xâm lấn của tế bào ung thư.<br>
             </blockquote>
-            </p>
         </div>
         <!-- Section title -->
         <?php
@@ -38,7 +36,7 @@ require_once $com_path . 'helpers/route.php';
                     foreach ($use_for as $obj) {
                         $title_use = $obj->title;
                         if (isset($obj->description) && !empty($obj->description)) {
-                            $description_use = JKentlib::trimstr($obj->description, 200);
+                            $description_use = JKentlib::trimstr($obj->description, 280);
                         } else {
                             $description_use = "";
                         }
@@ -51,7 +49,7 @@ require_once $com_path . 'helpers/route.php';
                         <div class="col-md-3 wow animated fadeInLeft margin-left animated" style="visibility: visible; animation-name: fadeInLeft;">
                             <h4 class="item_left"><a href="<?php echo $link;?>"> <?php echo $title_use;?></a> </h4>
                             <img class="item_right" src="<?php echo $image_use;?>" alt="">
-                            <p class="item_left"><?php echo $description_use; ?> </p>
+                            <div class="item_left giatri"><?php echo $description_use; ?> </div>
                             <a href="#" alt="">Chi tiết <i class="fa fa-angle-right" aria-hidden="true"></i></a>
                         </div>
                     <?php }?>

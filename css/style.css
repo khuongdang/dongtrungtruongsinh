@@ -1419,6 +1419,8 @@ footer .social-icon a:hover {
     padding-right: 0px;
     opacity: 0;
     position: relative;
+    color: #000;
+    text-align: justify;
 }
 .item_right {
     right: -80px;

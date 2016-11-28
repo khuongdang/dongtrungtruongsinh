@@ -30,10 +30,8 @@ $product_list = LIB::getAllProducts();
             <div align="center" class="product_name"><?php echo $product_name;?></div>
             <div class="portfolio">
                 <a href="<?php echo $link;?>" class="zoom"> <img src="<?php echo $product_image; ?>" alt="">
-                    <div class="hover-items">
-                        <span> <i class="fa fa-pagelines fa-4x"></i> <em class="lead"><?php echo $product_name;?></em></span>
-                    </div> </a>
             </div>
+            <div class="product_title"><?php echo $product_name; ?></div>
         </div>
         <!-- portfolio item -->
     <?php }?>

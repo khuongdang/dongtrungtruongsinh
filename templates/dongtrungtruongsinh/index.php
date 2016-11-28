@@ -25,7 +25,6 @@
     <link href="css/style-responsive.css" rel="stylesheet">
     <link href="css/isotope.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive" rel="stylesheet">
 
     <!-- Primary color theme -->
     <link id="primary_color_scheme" href="css/color/orange.css" rel="stylesheet">
@@ -42,7 +41,14 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="75">
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=109996865756563";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <!-- Intro loader -->
 <div class="mask">
     <div id="intro-loader"></div>
@@ -124,8 +130,6 @@
 <script src="js/portfolio_custom.js" type="text/javascript"></script>
 <script src="js/script.js"></script>
 <script src="js/retina-1.1.0.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
-<script src="js/google-map.js"></script>
 <!-- Js Library -->
 
 </body>
